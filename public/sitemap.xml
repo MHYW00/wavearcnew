@@ -122,4 +122,23 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://wavearc.co/en/contact"/>
   </url>
 
+  <!-- Support Pages -->
+  <url>
+    <loc>https://wavearc.co/tr/support</loc>
+    <lastmod>2025-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://wavearc.co/tr/support"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wavearc.co/en/support"/>
+  </url>
+
+  <url>
+    <loc>https://wavearc.co/en/support</loc>
+    <lastmod>2025-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://wavearc.co/tr/support"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wavearc.co/en/support"/>
+  </url>
+
 </urlset>

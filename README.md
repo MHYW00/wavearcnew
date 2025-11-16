@@ -2,22 +2,20 @@
 
 > **Think Different, Build Better**
 
-Modern, performanslı ve özelleştirilebilir kurumsal web sitesi. Next.js 14+, TypeScript, Tailwind CSS ve shadcn/ui ile geliştirilmiştir.
+Modern, performanslı ve SEO optimize kurumsal web sitesi. Next.js 15, TypeScript, Tailwind CSS ve shadcn/ui ile geliştirilmiştir.
 
 ## ✨ Özellikler
 
-### 🎨 İki Farklı Tema
-- **Klasik Tema**: Minimalist siyah-beyaz tasarım (Dark/Light mode)
-- **Neon Tema**: 80'lerin retro neon estetiğinden ilham alan marjinal tasarım
-  - Ultra siyah (#070119) zemin
-  - Neon pembe (#FF10F0) ve elektrik yeşili (#CCFF00) vurgu renkleri
-  - Glow/Bloom efektleri
-  - Glitch animasyonları
+### 🎨 Tema Sistemi
+- **Dark/Light Mode**: Minimalist siyah-beyaz tasarım
+- Sistem teması otomatik algılama
+- Smooth transitions between themes
 
 ### 🌐 Çok Dilli Destek (i18n)
-- Türkçe (Ana dil)
-- İngilizce
+- Türkçe (TR)
+- İngilizce (EN)
 - next-intl ile yapılandırılmış routing
+- SEO-friendly language alternates
 
 ### ⚡ Command Palette (⌘K)
 - Hızlı sayfa navigasyonu
@@ -38,13 +36,18 @@ Modern, performanslı ve özelleştirilebilir kurumsal web sitesi. Next.js 14+, 
 
 ### 🎯 SEO Optimize
 - Next.js Metadata API
-- Structured data (JSON-LD)
-- Sitemap ve robots.txt hazır
+- Schema.org Organization markup (JSON-LD)
+- Dynamic sitemap.xml with hreflang
+- robots.txt
 - Open Graph ve Twitter Card desteği
+- Canonical URLs
+- PWA manifest.json
+- Favicon ve app icons
+- Google Analytics ready
 
 ## 🛠️ Teknoloji Stack
 
-- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
 - **Dil**: [TypeScript](https://www.typescriptlang.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **UI Bileşenleri**: [shadcn/ui](https://ui.shadcn.com/)
@@ -52,6 +55,8 @@ Modern, performanslı ve özelleştirilebilir kurumsal web sitesi. Next.js 14+, 
 - **i18n**: [next-intl](https://next-intl-docs.vercel.app/)
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Tema Yönetimi**: [next-themes](https://github.com/pacocoursey/next-themes)
+- **Email**: [Resend](https://resend.com/)
+- **Notifications**: [Sonner](https://sonner.emilkowal.ski/)
 
 ## 🚀 Kurulum
 
@@ -85,48 +90,49 @@ wavearc-new/
 ├── app/
 │   ├── [locale]/          # Dil bazlı routing
 │   │   ├── page.tsx       # Anasayfa
-│   │   ├── hakkimizda/    # Hakkımızda sayfası
-│   │   ├── hizmetler/     # Hizmetler sayfası
-│   │   ├── portfolyo/     # Portfolyo sayfası
-│   │   └── iletisim/      # İletişim sayfası
+│   │   ├── hakkimizda/    # Hakkımızda sayfası (TR) / about (EN)
+│   │   ├── hizmetler/     # Hizmetler sayfası (TR) / services (EN)
+│   │   ├── portfolyo/     # Portfolyo sayfası (TR) / portfolio (EN)
+│   │   ├── iletisim/      # İletişim sayfası (TR) / contact (EN)
+│   │   ├── support/       # Destek sayfası
+│   │   └── layout.tsx     # Locale layout
+│   ├── api/
+│   │   └── send-email/    # Email gönderme endpoint
+│   ├── icon.png           # Favicon
+│   ├── apple-icon.png     # Apple touch icon
+│   ├── opengraph-image.png # OG image
+│   ├── manifest.json      # PWA manifest
 │   ├── globals.css        # Global stiller
 │   └── layout.tsx         # Root layout
 ├── components/
 │   ├── ui/                # shadcn/ui bileşenleri
 │   ├── layout/            # Header, Footer
-│   ├── sections/          # Sayfa bölümleri
 │   ├── command-palette.tsx
-│   └── theme-switcher.tsx
+│   ├── theme-provider.tsx
+│   ├── analytics.tsx      # Google Analytics
+│   ├── scroll-progress.tsx
+│   └── sticky-cta.tsx
 ├── lib/
 │   ├── i18n/              # Dil dosyaları (tr.json, en.json)
 │   ├── data/              # Statik veriler (projects.json)
 │   └── utils.ts           # Yardımcı fonksiyonlar
 └── public/
-    └── images/            # Görseller
+    ├── sitemap.xml        # SEO sitemap with hreflang
+    ├── robots.txt         # Robots configuration
+    └── clients/           # Client logos ve görseller
 ```
 
-## 🎨 Tema Kullanımı
+## 🎨 Tasarım Sistemi
 
-### Klasik Tema
-Sade, profesyonel siyah-beyaz tasarım. Dark ve Light mode desteği vardır.
+### Renkler
+- **Light Mode**: Beyaz background, slate text
+- **Dark Mode**: Dark slate background, beyaz text
+- **Primary**: Slate renk paleti
+- **Glass Effects**: Backdrop blur ile glassmorphism
 
-### Neon Tema
-80'lerin retro neon estetiğinden ilham alan, cesur ve dikkat çekici tasarım:
-- **Aktivasyon**: Header'daki palet ikonuna tıklayın veya Command Palette (⌘K) üzerinden
-- **Renkler**:
-  - Background: #070119 (Ultra Siyah)
-  - Primer: #FF10F0 (Neon Pembe)
-  - Sekonder: #CCFF00 (Elektrik Yeşili)
-  - Accent: #00FFFF (Neon Mavi)
-
-### Glow Efektleri
-Neon temasında kullanılabilen CSS sınıfları:
-```css
-.glow-pink      /* Pembe text glow */
-.glow-lime      /* Yeşil text glow */
-.box-glow-pink  /* Pembe box shadow */
-.glass-neon     /* Glassmorphism efekti */
-```
+### Tipografi
+- **Font**: Inter (Sans-serif)
+- **Mono**: JetBrains Mono (Code blocks için hazır)
 
 ## ⌨️ Klavye Kısayolları
 
@@ -191,24 +197,47 @@ Next.js 14+ App Router'ı destekleyen herhangi bir platformda çalışır:
 
 ## 🔧 Konfigürasyon
 
-### Google Analytics
-`.env.local` dosyasına ekleyin:
+### Environment Variables
+`.env.local` dosyası oluşturun:
 ```env
+# Google Analytics
 NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
-```
 
-### Site URL
-```env
+# Site URL
 NEXT_PUBLIC_SITE_URL=https://wavearc.co
+
+# Resend API (Email gönderimi için)
+RESEND_API_KEY=re_xxxxxxxxxx
+CONTACT_EMAIL=mete@wavearc.co
 ```
 
-## 📊 Performans
+## 📊 Performans & SEO
 
+### Performans
 - ✅ Server Components (RSC) kullanımı
 - ✅ Otomatik kod bölme (code splitting)
-- ✅ Image optimization
+- ✅ Image optimization (next/image)
 - ✅ Font optimization (next/font)
 - ✅ CSS optimization (Tailwind JIT)
+
+### SEO Features
+- ✅ Semantic HTML5
+- ✅ Schema.org markup (Organization)
+- ✅ Sitemap.xml with hreflang alternates
+- ✅ Robots.txt
+- ✅ Meta tags (OG, Twitter Card)
+- ✅ Canonical URLs
+- ✅ Language alternates (TR/EN)
+- ✅ PWA manifest
+- ✅ Optimized images and icons
+
+### Sayfalar
+- 🏠 Anasayfa (/)
+- 📖 Hakkımızda (/hakkimizda, /about)
+- 🛠️ Hizmetler (/hizmetler, /services)
+- 💼 Portfolyo (/portfolyo, /portfolio)
+- 📞 İletişim (/iletisim, /contact)
+- 🆘 Destek (/support) - Site içi erişim yok, direkt URL ile erişim
 
 ## 🤝 Katkıda Bulunma
 
@@ -225,4 +254,11 @@ Bu proje WaveArc için özel olarak geliştirilmiştir. Öneri ve hata raporlar�
 
 ---
 
-**Built with ❤️ by WaveArc Team**
+## 🔗 Linkler
+
+- **Production**: [https://wavearc.co](https://wavearc.co)
+- **GitHub**: [https://github.com/MHYW00/wavearcnew](https://github.com/MHYW00/wavearcnew)
+- **Instagram**: [@wavearc.co](https://www.instagram.com/wavearc.co/)
+- **App Store**: [Mete Han Yıldırım](https://apps.apple.com/tr/developer/mete-han-yildirim/id1841905668)
+
+**Built with 💻 by WaveArc**

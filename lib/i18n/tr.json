@@ -223,5 +223,33 @@
     "title": "404 - Sayfa Bulunamadı",
     "description": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
     "backHome": "Anasayfaya Dön"
+  },
+  "support": {
+    "title": "Destek",
+    "subtitle": "Size yardımcı olmak için buradayız. Sorularınız ve destek talepleriniz için aşağıdaki bilgileri kullanabilirsiniz.",
+    "general": {
+      "title": "Genel Destek",
+      "desc": "Genel sorularınız, önerileriniz veya geri bildirimleriniz için bizimle iletişime geçin.",
+      "response": "Yanıt Süresi: 24 saat içinde"
+    },
+    "technical": {
+      "title": "Teknik Destek",
+      "desc": "Uygulama kullanımı, teknik sorunlar ve hata raporları için iletişime geçin.",
+      "response": "Yanıt Süresi: 12 saat içinde"
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "q1": "Nasıl destek alabilirim?",
+      "a1": "Yukarıdaki email adresinden bizimle iletişime geçebilirsiniz. Hem genel sorular hem teknik konular için mete@wavearc.co adresini kullanın.",
+      "q2": "Ne kadar sürede yanıt alırım?",
+      "a2": "Genel destek sorularına 24 saat içinde, teknik destek sorularına 12 saat içinde yanıt vermeye çalışıyoruz.",
+      "q3": "Hangi bilgileri paylaşmalıyım?",
+      "a3": "Sorununuzu detaylı olarak açıklayın. Teknik sorunlar için cihaz modelinizi, işletim sistemi sürümünü ve uygulama sürümünü belirtmeyi unutmayın."
+    },
+    "cta": {
+      "title": "Hâlâ Yardıma İhtiyacınız Var mı?",
+      "subtitle": "Sorularınızın yanıtını bulamadıysanız, bizimle doğrudan iletişime geçmekten çekinmeyin.",
+      "button": "İletişime Geç"
+    }
   }
 }

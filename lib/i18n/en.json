@@ -223,5 +223,33 @@
     "title": "404 - Page Not Found",
     "description": "The page you're looking for doesn't exist or may have been moved.",
     "backHome": "Back to Home"
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "We're here to help. Use the information below for your questions and support requests.",
+    "general": {
+      "title": "General Support",
+      "desc": "Contact us for general questions, suggestions, or feedback.",
+      "response": "Response Time: Within 24 hours"
+    },
+    "technical": {
+      "title": "Technical Support",
+      "desc": "Get in touch for application usage, technical issues, and bug reports.",
+      "response": "Response Time: Within 12 hours"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "How can I get support?",
+      "a1": "You can contact us using the email address above. Use mete@wavearc.co for both general questions and technical matters.",
+      "q2": "How long does it take to get a response?",
+      "a2": "We try to respond to general support inquiries within 24 hours and technical support inquiries within 12 hours.",
+      "q3": "What information should I share?",
+      "a3": "Describe your issue in detail. For technical problems, don't forget to mention your device model, operating system version, and application version."
+    },
+    "cta": {
+      "title": "Still Need Help?",
+      "subtitle": "If you haven't found answers to your questions, don't hesitate to contact us directly.",
+      "button": "Get In Touch"
+    }
   }
 }
