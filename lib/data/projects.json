@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "slug": "senoz-ekovadi",
+    "title": {
+      "tr": "Senoz Ekovadi",
+      "en": "Senoz Ekovadi"
+    },
+    "description": {
+      "tr": "Çayeli bölgesi için kapsamlı ekoturizm rehberi. iOS, Android ve Web platformlarında çalışan tam donanımlı dijital ekosistem.",
+      "en": "Comprehensive ecotourism guide for Çayeli region. Full-featured digital ecosystem running on iOS, Android and Web platforms."
+    },
+    "technologies": ["Flutter", "Next.js", "Node.js", "PostgreSQL", "Docker", "WebSocket", "Nginx", "PM2", "OpenStreetMap"],
+    "category": "mobile",
+    "image": "/images/projects/senoz-ekovadi.jpg",
+    "size": "large",
+    "client": "DOKAP & T.C. Çayeli Kaymakamlığı",
+    "year": "2025",
+    "platform": ["iOS", "Android", "Web"]
+  }
+]

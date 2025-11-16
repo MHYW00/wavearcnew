@@ -1,0 +1,227 @@
+{
+  "common": {
+    "companyName": "WaveArc",
+    "tagline": "Think Different, Build Better",
+    "email": "mete@wavearc.co",
+    "phone": "+90 510 221 03 53"
+  },
+  "nav": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "portfolio": "Portfolyo",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "Geleceğin Yazılımını",
+    "titleHighlight": "Bugün İnşa Ediyoruz",
+    "subtitle": "Modern teknolojilerle, işinizi dijital dünyada zirveye taşıyoruz. Özelleştirilmiş yazılım çözümleri ve danışmanlık hizmetleriyle yanınızdayız.",
+    "cta": "Projenizi Konuşalım",
+    "ctaSecondary": "Portfolyomuzu İnceleyin"
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Teknoloji dünyasında ihtiyaç duyduğunuz her şey",
+    "learnMore": "Daha Fazla",
+    "processTitle": "Çalışma Sürecimiz",
+    "processSubtitle": "Baştan sona profesyonel ve şeffaf bir süreç",
+    "ctaTitle": "Projeniz için Hazır mıyız?",
+    "ctaSubtitle": "Sizinle birlikte çalışmak, fikirlerinizi hayata geçirmek için sabırsızlanıyoruz.",
+    "ctaContact": "İletişime Geç",
+    "ctaPortfolio": "Portfolio'yu İncele",
+    "features": {
+      "webApps": "Web Uygulamaları - React, Next.js, Vue.js",
+      "mobileApps": "Mobil Uygulamalar - React Native, Flutter",
+      "apiDev": "API Geliştirme - REST, GraphQL, gRPC",
+      "cloudSolutions": "Cloud Solutions - AWS, Azure, GCP",
+      "digitalTransform": "Dijital Dönüşüm Stratejisi",
+      "techArchitecture": "Teknoloji Mimarisi ve Planlama",
+      "securityCompliance": "Güvenlik ve Compliance Danışmanlığı",
+      "performanceOpt": "Performans Optimizasyonu",
+      "erpSystems": "ERP Sistemleri - SAP, Odoo, Custom",
+      "crmSolutions": "CRM Çözümleri - Salesforce, Custom",
+      "businessIntel": "İş Zekası ve Analitik",
+      "systemIntegration": "Sistem Entegrasyonu"
+    },
+    "processSteps": {
+      "step1Title": "Keşif ve Analiz",
+      "step1Desc": "İhtiyaçlarınızı detaylıca anlıyor, hedeflerinizi belirliyoruz.",
+      "step2Title": "Strateji ve Planlama",
+      "step2Desc": "En uygun teknoloji stack ve mimariyi tasarlıyoruz.",
+      "step3Title": "Geliştirme",
+      "step3Desc": "Agile metodoloji ile hızlı ve kaliteli kod üretiyoruz.",
+      "step4Title": "Test ve Deployment",
+      "step4Desc": "Kapsamlı testler ve güvenli deployment süreçleri.",
+      "step5Title": "Destek ve Bakım",
+      "step5Desc": "7/24 teknik destek ve sürekli iyileştirme hizmeti."
+    },
+    "software": {
+      "title": "Yazılım Geliştirme",
+      "description": "Özel yazılım çözümleri ve uygulama geliştirme",
+      "details": "Web, mobil ve masaüstü platformları için özelleştirilmiş yazılım çözümleri geliştiriyoruz. Modern teknolojiler ve agile metodolojiler ile projenizi hayata geçiriyoruz."
+    },
+    "consulting": {
+      "title": "Teknoloji Danışmanlığı",
+      "description": "Stratejik teknoloji danışmanlığı ve dijital dönüşüm",
+      "details": "İşletmenizin dijital dönüşüm yolculuğunda rehberlik ediyoruz. Teknoloji altyapınızı analiz ediyor ve geleceğe hazır stratejiler sunuyoruz."
+    },
+    "corporate": {
+      "title": "Kurumsal Çözümler",
+      "description": "Premium kurumsal teknoloji çözümleri",
+      "details": "Büyük ölçekli işletmeler için özelleştirilmiş kurumsal yazılım çözümleri. ERP, CRM ve iş zekası uygulamaları ile operasyonel verimliliğinizi artırıyoruz."
+    }
+  },
+  "portfolio": {
+    "title": "Projelerimiz",
+    "subtitle": "Başarıyla tamamladığımız projeler",
+    "viewDetails": "Detayları Görüntüle",
+    "technologies": "Kullanılan Teknolojiler",
+    "filters": {
+      "all": "Tümü",
+      "web": "Web",
+      "mobile": "Mobil",
+      "api": "API",
+      "enterprise": "Kurumsal"
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "subtitle": "Biz Kimiz?",
+    "description": "WaveArc olarak, 2025 yılından bu yana yazılım dünyasında yenilikçi çözümler sunuyoruz. 'Think Different, Build Better' felsefesiyle, her projede mükemmelliği hedefliyoruz.",
+    "mission": "Misyonumuz",
+    "missionText": "Modern teknolojileri kullanarak işletmelerin dijital dönüşümüne öncülük etmek ve sürdürülebilir, ölçeklenebilir yazılım çözümleri sunmak.",
+    "vision": "Vizyonumuz",
+    "visionText": "Türkiye'nin önde gelen yazılım şirketlerinden biri olmak ve global pazarda tanınan bir teknoloji markası yaratmak."
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Projeniz için bizimle iletişime geçin",
+    "form": {
+      "title": "İletişim Formu",
+      "description": "Formu doldurun, en kısa sürede size dönüş yapalım.",
+      "name": "Ad Soyad",
+      "namePlaceholder": "Ad Soyad",
+      "email": "E-posta",
+      "emailPlaceholder": "ornek@email.com",
+      "phone": "Telefon",
+      "phonePlaceholder": "+90 XXX XXX XX XX",
+      "subject": "Konu",
+      "subjectPlaceholder": "Konu başlığı",
+      "message": "Mesajınız",
+      "messagePlaceholder": "Mesajınızı buraya yazın...",
+      "submit": "Gönder",
+      "sending": "Gönderiliyor...",
+      "success": "Mesajınız başarıyla gönderildi!",
+      "error": "Bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "info": {
+      "title": "İletişim Bilgileri",
+      "address": "Türkiye",
+      "workingHours": "Çalışma Saatleri",
+      "workingHoursText": "Pazartesi - Cuma: 09:00 - 18:00"
+    }
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır.",
+    "social": "Sosyal Medya"
+  },
+  "command": {
+    "placeholder": "Komut veya sayfa ara...",
+    "navigation": "Navigasyon",
+    "theme": "Tema",
+    "language": "Dil",
+    "switchTheme": "Temayı Değiştir",
+    "switchLanguage": "Dili Değiştir",
+    "noResults": "Sonuç bulunamadı."
+  },
+  "theme": {
+    "dark": "Koyu Mod",
+    "light": "Aydınlık Mod"
+  },
+  "stats": {
+    "clients": "Mutlu Müşteri",
+    "projects": "Tamamlanan Proje",
+    "experience": "Yıllık Tecrübe",
+    "satisfaction": "Müşteri Memnuniyeti"
+  },
+  "references": {
+    "title": "Referanslarımız",
+    "subtitle": "Birlikte çalıştığımız değerli markalar"
+  },
+  "process": {
+    "title": "Çalışma Sürecimiz",
+    "subtitle": "Projenizi nasıl hayata geçiriyoruz?",
+    "step1": {
+      "title": "Keşif & Analiz",
+      "description": "İhtiyaçlarınızı dinliyor, hedeflerinizi belirliyoruz"
+    },
+    "step2": {
+      "title": "Planlama & Tasarım",
+      "description": "Proje planını ve UX/UI tasarımını oluşturuyoruz"
+    },
+    "step3": {
+      "title": "Geliştirme",
+      "description": "Modern teknolojilerle projenizi kodluyoruz"
+    },
+    "step4": {
+      "title": "Test & QA",
+      "description": "Kapsamlı testlerle kaliteyi garanti ediyoruz"
+    },
+    "step5": {
+      "title": "Yayın & Destek",
+      "description": "Projeyi yayınlıyoruz"
+    }
+  },
+  "trust": {
+    "support": "7/24 Destek",
+    "delivery": "Zamanında Teslimat",
+    "quality": "Premium Kalite",
+    "security": "Güvenli Altyapı"
+  },
+  "cta": {
+    "title": "Projenizi Hayata Geçirelim",
+    "subtitle": "Yazılım projeleriniz için güvenilir çözüm ortağınız. Detayları görüşmek için iletişime geçin.",
+    "contact": "İletişime Geç",
+    "portfolio": "Projelerimizi İncele"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Teknoloji dünyasından yazılar ve görüşler",
+    "readMore": "Devamını Oku",
+    "readingTime": "dk okuma",
+    "relatedArticles": "İlgili Makaleler",
+    "shareArticle": "Makaleyi Paylaş",
+    "backToBlog": "Bloga Dön",
+    "noArticles": "Henüz makale yok"
+  },
+  "caseStudies": {
+    "title": "Başarı Hikayeleri",
+    "subtitle": "Müşterilerimizle birlikte yarattığımız değer",
+    "challenge": "Zorluk",
+    "solution": "Çözüm",
+    "results": "Sonuçlar",
+    "technologies": "Kullanılan Teknolojiler",
+    "viewProject": "Projeyi İncele",
+    "backToCases": "Hikayelere Dön"
+  },
+  "team": {
+    "title": "Ekibimiz",
+    "subtitle": "Tutkulu ve deneyimli profesyoneller"
+  },
+  "newsletter": {
+    "title": "Bültenimize Katılın",
+    "subtitle": "Teknoloji trendleri ve projelerimizden haberdar olun",
+    "placeholder": "E-posta adresiniz",
+    "button": "Abone Ol",
+    "success": "Başarıyla abone oldunuz!",
+    "error": "Bir hata oluştu. Lütfen tekrar deneyin."
+  },
+  "stickyButton": {
+    "startProject": "Projeye Başla"
+  },
+  "notFound": {
+    "title": "404 - Sayfa Bulunamadı",
+    "description": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
+    "backHome": "Anasayfaya Dön"
+  }
+}

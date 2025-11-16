@@ -1,0 +1,227 @@
+{
+  "common": {
+    "companyName": "WaveArc",
+    "tagline": "Think Different, Build Better",
+    "email": "mete@wavearc.co",
+    "phone": "+90 510 221 03 53"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Building Tomorrow's Software",
+    "titleHighlight": "Today",
+    "subtitle": "Elevating your business in the digital world with modern technologies. We're here with customized software solutions and consulting services.",
+    "cta": "Let's Talk About Your Project",
+    "ctaSecondary": "Explore Our Portfolio"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Everything you need in the technology world",
+    "learnMore": "Learn More",
+    "processTitle": "Our Work Process",
+    "processSubtitle": "A professional and transparent process from start to finish",
+    "ctaTitle": "Ready for Your Project?",
+    "ctaSubtitle": "We're excited to work with you and bring your ideas to life.",
+    "ctaContact": "Get In Touch",
+    "ctaPortfolio": "View Portfolio",
+    "features": {
+      "webApps": "Web Applications - React, Next.js, Vue.js",
+      "mobileApps": "Mobile Applications - React Native, Flutter",
+      "apiDev": "API Development - REST, GraphQL, gRPC",
+      "cloudSolutions": "Cloud Solutions - AWS, Azure, GCP",
+      "digitalTransform": "Digital Transformation Strategy",
+      "techArchitecture": "Technology Architecture and Planning",
+      "securityCompliance": "Security and Compliance Consulting",
+      "performanceOpt": "Performance Optimization",
+      "erpSystems": "ERP Systems - SAP, Odoo, Custom",
+      "crmSolutions": "CRM Solutions - Salesforce, Custom",
+      "businessIntel": "Business Intelligence and Analytics",
+      "systemIntegration": "System Integration"
+    },
+    "processSteps": {
+      "step1Title": "Discovery and Analysis",
+      "step1Desc": "We understand your needs in detail and define your goals.",
+      "step2Title": "Strategy and Planning",
+      "step2Desc": "We design the most suitable technology stack and architecture.",
+      "step3Title": "Development",
+      "step3Desc": "We produce fast and quality code with agile methodology.",
+      "step4Title": "Testing and Deployment",
+      "step4Desc": "Comprehensive testing and secure deployment processes.",
+      "step5Title": "Support and Maintenance",
+      "step5Desc": "24/7 technical support and continuous improvement service."
+    },
+    "software": {
+      "title": "Software Development",
+      "description": "Custom software solutions and application development",
+      "details": "We develop customized software solutions for web, mobile, and desktop platforms. We bring your project to life with modern technologies and agile methodologies."
+    },
+    "consulting": {
+      "title": "Technology Consulting",
+      "description": "Strategic technology consulting and digital transformation",
+      "details": "We guide your business on its digital transformation journey. We analyze your technology infrastructure and provide future-ready strategies."
+    },
+    "corporate": {
+      "title": "Corporate Solutions",
+      "description": "Premium corporate technology solutions",
+      "details": "Customized enterprise software solutions for large-scale businesses. We increase your operational efficiency with ERP, CRM, and business intelligence applications."
+    }
+  },
+  "portfolio": {
+    "title": "Our Projects",
+    "subtitle": "Successfully completed projects",
+    "viewDetails": "View Details",
+    "technologies": "Technologies Used",
+    "filters": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "api": "API",
+      "enterprise": "Enterprise"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Who We Are?",
+    "description": "As WaveArc, we have been providing innovative solutions in the software world since 2025. With our 'Think Different, Build Better' philosophy, we aim for excellence in every project.",
+    "mission": "Our Mission",
+    "missionText": "To lead businesses in digital transformation using modern technologies and provide sustainable, scalable software solutions.",
+    "vision": "Our Vision",
+    "visionText": "To become one of Turkey's leading software companies and create a globally recognized technology brand."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch with us for your project",
+    "form": {
+      "title": "Contact Form",
+      "description": "Fill out the form and we'll get back to you as soon as possible.",
+      "name": "Full Name",
+      "namePlaceholder": "Full Name",
+      "email": "Email",
+      "emailPlaceholder": "example@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+90 XXX XXX XX XX",
+      "subject": "Subject",
+      "subjectPlaceholder": "Subject line",
+      "message": "Your Message",
+      "messagePlaceholder": "Write your message here...",
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "Turkey",
+      "workingHours": "Working Hours",
+      "workingHoursText": "Monday - Friday: 09:00 - 18:00"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "social": "Social Media"
+  },
+  "command": {
+    "placeholder": "Search for command or page...",
+    "navigation": "Navigation",
+    "theme": "Theme",
+    "language": "Language",
+    "switchTheme": "Switch Theme",
+    "switchLanguage": "Switch Language",
+    "noResults": "No results found."
+  },
+  "theme": {
+    "dark": "Dark Mode",
+    "light": "Light Mode"
+  },
+  "stats": {
+    "clients": "Happy Clients",
+    "projects": "Completed Projects",
+    "experience": "Years Experience",
+    "satisfaction": "Client Satisfaction"
+  },
+  "references": {
+    "title": "Our References",
+    "subtitle": "Trusted brands we work with"
+  },
+  "process": {
+    "title": "Our Work Process",
+    "subtitle": "How do we bring your project to life?",
+    "step1": {
+      "title": "Discovery & Analysis",
+      "description": "We listen to your needs and define your goals"
+    },
+    "step2": {
+      "title": "Planning & Design",
+      "description": "We create the project plan and UX/UI design"
+    },
+    "step3": {
+      "title": "Development",
+      "description": "We code your project with modern technologies"
+    },
+    "step4": {
+      "title": "Testing & QA",
+      "description": "We guarantee quality with comprehensive testing"
+    },
+    "step5": {
+      "title": "Launch & Support",
+      "description": "We launch the project"
+    }
+  },
+  "trust": {
+    "support": "24/7 Support",
+    "delivery": "On-Time Delivery",
+    "quality": "Premium Quality",
+    "security": "Secure Infrastructure"
+  },
+  "cta": {
+    "title": "Let's Bring Your Project to Life",
+    "subtitle": "Your trusted solution partner for software projects. Get in touch to discuss the details.",
+    "contact": "Get In Touch",
+    "portfolio": "Explore Our Projects"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Articles and insights from the tech world",
+    "readMore": "Read More",
+    "readingTime": "min read",
+    "relatedArticles": "Related Articles",
+    "shareArticle": "Share Article",
+    "backToBlog": "Back to Blog",
+    "noArticles": "No articles yet"
+  },
+  "caseStudies": {
+    "title": "Success Stories",
+    "subtitle": "Value we created together with our clients",
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "results": "Results",
+    "technologies": "Technologies Used",
+    "viewProject": "View Project",
+    "backToCases": "Back to Stories"
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Passionate and experienced professionals"
+  },
+  "newsletter": {
+    "title": "Join Our Newsletter",
+    "subtitle": "Stay updated on tech trends and our projects",
+    "placeholder": "Your email address",
+    "button": "Subscribe",
+    "success": "Successfully subscribed!",
+    "error": "An error occurred. Please try again."
+  },
+  "stickyButton": {
+    "startProject": "Start Project"
+  },
+  "notFound": {
+    "title": "404 - Page Not Found",
+    "description": "The page you're looking for doesn't exist or may have been moved.",
+    "backHome": "Back to Home"
+  }
+}

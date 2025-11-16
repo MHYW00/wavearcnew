@@ -1,0 +1,21 @@
+{
+  "name": "WaveArc - Think Different, Build Better",
+  "short_name": "WaveArc",
+  "description": "Modern yazılım çözümleri ve teknoloji danışmanlığı. Web, mobil ve kurumsal uygulamalar.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/clients/wavearc-siyah-logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "technology", "productivity"],
+  "lang": "tr",
+  "dir": "ltr"
+}

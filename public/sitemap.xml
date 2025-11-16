@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://wavearc.co/</loc>
+    <lastmod>2025-11-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://wavearc.co/tr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wavearc.co/en"/>
+  </url>
+
+  <!-- Turkish Pages -->
+  <url>
+    <loc>https://wavearc.co/tr</loc>
+    <lastmod>2025-11-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://wavearc.co/tr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wavearc.co/en"/>
+  </url>
+
+  <url>
+    <loc>https://wavearc.co/tr/hakkimizda</loc>
+    <lastmod>2025-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://wavearc.co/tr/hakkimizda"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wavearc.co/en/about"/>
+  </url>
+
+  <url>
+    <loc>https://wavearc.co/tr/hizmetler</loc>
+    <lastmod>2025-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://wavearc.co/tr/hizmetler"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wavearc.co/en/services"/>
+  </url>
+
+  <url>
+    <loc>https://wavearc.co/tr/portfolyo</loc>
+    <lastmod>2025-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://wavearc.co/tr/portfolyo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wavearc.co/en/portfolio"/>
+  </url>
+
+  <url>
+    <loc>https://wavearc.co/tr/portfolyo/senoz-ekovadi</loc>
+    <lastmod>2025-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://wavearc.co/tr/portfolyo/senoz-ekovadi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wavearc.co/en/portfolio/senoz-ekovadi"/>
+  </url>
+
+  <url>
+    <loc>https://wavearc.co/tr/iletisim</loc>
+    <lastmod>2025-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://wavearc.co/tr/iletisim"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wavearc.co/en/contact"/>
+  </url>
+
+  <!-- English Pages -->
+  <url>
+    <loc>https://wavearc.co/en</loc>
+    <lastmod>2025-11-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://wavearc.co/tr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wavearc.co/en"/>
+  </url>
+
+  <url>
+    <loc>https://wavearc.co/en/about</loc>
+    <lastmod>2025-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://wavearc.co/tr/hakkimizda"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wavearc.co/en/about"/>
+  </url>
+
+  <url>
+    <loc>https://wavearc.co/en/services</loc>
+    <lastmod>2025-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://wavearc.co/tr/hizmetler"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wavearc.co/en/services"/>
+  </url>
+
+  <url>
+    <loc>https://wavearc.co/en/portfolio</loc>
+    <lastmod>2025-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://wavearc.co/tr/portfolyo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wavearc.co/en/portfolio"/>
+  </url>
+
+  <url>
+    <loc>https://wavearc.co/en/portfolio/senoz-ekovadi</loc>
+    <lastmod>2025-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://wavearc.co/tr/portfolyo/senoz-ekovadi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wavearc.co/en/portfolio/senoz-ekovadi"/>
+  </url>
+
+  <url>
+    <loc>https://wavearc.co/en/contact</loc>
+    <lastmod>2025-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://wavearc.co/tr/iletisim"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wavearc.co/en/contact"/>
+  </url>
+
+</urlset>
