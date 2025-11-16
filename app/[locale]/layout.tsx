@@ -1,7 +1,6 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { Inter, JetBrains_Mono } from 'next/font/google';
-import { ThemeProvider } from '@/components/theme-provider';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { CommandPalette } from '@/components/command-palette';
@@ -33,7 +32,7 @@ export default async function LocaleLayout({
   const messages = await getMessages({ locale });
 
   return (
-    <html lang={locale} suppressHydrationWarning className={`${inter.variable} ${jetbrainsMono.variable}`}>
+    <html lang={locale} suppressHydrationWarning className={`dark ${inter.variable} ${jetbrainsMono.variable}`}>
       <head>
         <link rel="canonical" href={`https://wavearc.co/${locale}`} />
         <link rel="alternate" hrefLang="tr" href="https://wavearc.co/tr" />
@@ -45,22 +44,16 @@ export default async function LocaleLayout({
       <body>
         <Analytics />
         <NextIntlClientProvider messages={messages}>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            forcedTheme="dark"
-          >
-            <ScrollProgress />
-            <CommandPalette />
-            <WhatsAppButton />
-            <CookieConsent />
-            <Toaster position="top-right" richColors />
-            <div className="flex min-h-screen flex-col">
-              <Header />
-              <main className="flex-1">{children}</main>
-              <Footer />
-            </div>
-          </ThemeProvider>
+          <ScrollProgress />
+          <CommandPalette />
+          <WhatsAppButton />
+          <CookieConsent />
+          <Toaster position="top-right" richColors />
+          <div className="flex min-h-screen flex-col">
+            <Header />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </div>
         </NextIntlClientProvider>
       </body>
     </html>

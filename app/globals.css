@@ -2,36 +2,7 @@
 
 @layer base {
   :root {
-    /* Monochromatic Light Theme - Pure Black & White with Cold Grays (Slate) */
-    --background: 0 0% 100%; /* Pure White */
-    --foreground: 0 0% 3.9%; /* Near Black (slate-950) */
-    --card: 0 0% 96%; /* slate-100 - Darker for better contrast */
-    --card-foreground: 0 0% 3.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 3.9%;
-    --primary: 0 0% 9%; /* Near Black (slate-900) */
-    --primary-foreground: 0 0% 98%;
-    --secondary: 214.3 31.8% 91.4%; /* slate-200 */
-    --secondary-foreground: 0 0% 9%;
-    --muted: 214.3 31.8% 85%; /* slate-300 - Darker for visibility */
-    --muted-foreground: 215.4 16.3% 40%; /* slate-700 - Darker text */
-    --accent: 199.1 89.1% 48.2%; /* sky-500 - Very subtle accent for focus only */
-    --accent-foreground: 0 0% 100%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 214.3 31.8% 85%; /* slate-300 - Darker border */
-    --input: 214.3 31.8% 91.4%;
-    --ring: 199.1 89.1% 48.2%; /* sky-500 */
-    --radius: 0.75rem;
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
-  }
-
-  .dark {
-    /* Monochromatic Dark Theme - Pure Black & White with Cold Grays (Slate) */
+    /* Dark Theme Only - Pure Black & White with Cold Grays (Slate) */
     --background: 222.2 47.4% 3%; /* Near Black (slate-950+) */
     --foreground: 210 40% 98%; /* Near White (slate-50) */
     --card: 222.2 47.4% 5%; /* Slightly lighter than background */
@@ -51,6 +22,7 @@
     --border: 217.2 32.6% 17.5%; /* slate-800 */
     --input: 217.2 32.6% 17.5%;
     --ring: 199.1 89.1% 48.2%; /* sky-500 */
+    --radius: 0.75rem;
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
@@ -96,94 +68,50 @@
    ============================================ */
 
 @layer utilities {
-  /* Neomorphic Button - Raised Effect */
+  /* Neomorphic Button - Dark Mode Only */
   .neomorph-button {
     box-shadow:
-      6px 6px 12px rgba(0, 0, 0, 0.08),
-      -6px -6px 12px rgba(255, 255, 255, 0.5);
+      6px 6px 12px rgba(0, 0, 0, 0.4),
+      -6px -6px 12px rgba(255, 255, 255, 0.015);
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .neomorph-button:hover {
     box-shadow:
-      8px 8px 16px rgba(0, 0, 0, 0.12),
-      -8px -8px 16px rgba(255, 255, 255, 0.6);
+      8px 8px 16px rgba(0, 0, 0, 0.5),
+      -8px -8px 16px rgba(255, 255, 255, 0.02);
     transform: translateY(-1px);
   }
 
   .neomorph-button:active {
     box-shadow:
-      inset 3px 3px 6px rgba(0, 0, 0, 0.15),
-      inset -3px -3px 6px rgba(255, 255, 255, 0.1);
+      inset 3px 3px 6px rgba(0, 0, 0, 0.6),
+      inset -3px -3px 6px rgba(255, 255, 255, 0.01);
     transform: scale(0.98);
   }
 
-  /* Neomorphic Card - Subtle Elevation */
+  /* Neomorphic Card - Dark Mode Only */
   .neomorph-card {
-    box-shadow:
-      10px 10px 20px rgba(0, 0, 0, 0.06),
-      -10px -10px 20px rgba(255, 255, 255, 0.4);
-  }
-
-  .neomorph-card:hover {
-    box-shadow:
-      12px 12px 24px rgba(0, 0, 0, 0.08),
-      -12px -12px 24px rgba(255, 255, 255, 0.5);
-    transform: translateY(-2px);
-  }
-
-  /* Neomorphic Input - Inset Effect */
-  .neomorph-inset {
-    box-shadow:
-      inset 4px 4px 8px rgba(0, 0, 0, 0.08),
-      inset -4px -4px 8px rgba(255, 255, 255, 0.03);
-  }
-
-  .neomorph-inset:focus {
-    box-shadow:
-      inset 4px 4px 8px rgba(0, 0, 0, 0.1),
-      inset -4px -4px 8px rgba(255, 255, 255, 0.05),
-      0 0 0 3px rgba(14, 165, 233, 0.1); /* sky-500 at 10% opacity */
-  }
-
-  /* Dark Mode Neomorphism */
-  .dark .neomorph-button {
-    box-shadow:
-      6px 6px 12px rgba(0, 0, 0, 0.4),
-      -6px -6px 12px rgba(255, 255, 255, 0.015);
-  }
-
-  .dark .neomorph-button:hover {
-    box-shadow:
-      8px 8px 16px rgba(0, 0, 0, 0.5),
-      -8px -8px 16px rgba(255, 255, 255, 0.02);
-  }
-
-  .dark .neomorph-button:active {
-    box-shadow:
-      inset 3px 3px 6px rgba(0, 0, 0, 0.6),
-      inset -3px -3px 6px rgba(255, 255, 255, 0.01);
-  }
-
-  .dark .neomorph-card {
     box-shadow:
       10px 10px 20px rgba(0, 0, 0, 0.4),
       -10px -10px 20px rgba(255, 255, 255, 0.01);
   }
 
-  .dark .neomorph-card:hover {
+  .neomorph-card:hover {
     box-shadow:
       12px 12px 24px rgba(0, 0, 0, 0.5),
       -12px -12px 24px rgba(255, 255, 255, 0.015);
+    transform: translateY(-2px);
   }
 
-  .dark .neomorph-inset {
+  /* Neomorphic Input - Dark Mode Only */
+  .neomorph-inset {
     box-shadow:
       inset 4px 4px 8px rgba(0, 0, 0, 0.5),
       inset -4px -4px 8px rgba(255, 255, 255, 0.01);
   }
 
-  .dark .neomorph-inset:focus {
+  .neomorph-inset:focus {
     box-shadow:
       inset 4px 4px 8px rgba(0, 0, 0, 0.6),
       inset -4px -4px 8px rgba(255, 255, 255, 0.015),
@@ -192,56 +120,25 @@
 }
 
 /* ============================================
-   GLASSMORPHISM - Apple-Style Glass Effects
+   GLASSMORPHISM - Dark Mode Only
    ============================================ */
 
 .glass {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(12px) saturate(180%);
   -webkit-backdrop-filter: blur(12px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.glass-strong {
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(20px) saturate(200%);
-  -webkit-backdrop-filter: blur(20px) saturate(200%);
-  border: 1px solid rgba(255, 255, 255, 0.4);
-}
-
-/* Apple-Style Glass Card - Light Mode */
-.glass-card {
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow:
-    0 4px 24px rgba(0, 0, 0, 0.04),
-    0 1px 3px rgba(0, 0, 0, 0.02);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.glass-card:hover {
-  background: rgba(255, 255, 255, 0.8);
-  border-color: rgba(0, 0, 0, 0.12);
-  box-shadow:
-    0 8px 32px rgba(0, 0, 0, 0.06),
-    0 2px 6px rgba(0, 0, 0, 0.03);
-  transform: translateY(-2px);
-}
-
-.dark .glass {
-  background: rgba(0, 0, 0, 0.4);
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.dark .glass-strong {
+.glass-strong {
   background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(20px) saturate(200%);
+  -webkit-backdrop-filter: blur(20px) saturate(200%);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-/* Apple-Style Glass Card - Dark Mode */
-.dark .glass-card {
+/* Apple-Style Glass Card - Dark Mode Only */
+.glass-card {
   background: rgba(255, 255, 255, 0.12);
   backdrop-filter: blur(20px) saturate(200%);
   -webkit-backdrop-filter: blur(20px) saturate(200%);
@@ -250,9 +147,10 @@
     0 4px 24px rgba(0, 0, 0, 0.3),
     0 1px 3px rgba(0, 0, 0, 0.2),
     inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.dark .glass-card:hover {
+.glass-card:hover {
   background: rgba(255, 255, 255, 0.16);
   border-color: rgba(255, 255, 255, 0.24);
   box-shadow:
