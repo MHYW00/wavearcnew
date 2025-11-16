@@ -175,42 +175,6 @@ import projects from '@/lib/data/projects.json'
 const projects = await fetch('https://cms.wavearc.co/api/projects')
 ```
 
-## 🚀 Deployment
-
-### Vercel (Önerilen)
-1. Projeyi GitHub'a push edin
-2. [Vercel](https://vercel.com)'e import edin
-3. Environment variables'ları ekleyin
-4. Deploy!
-
-```bash
-npm run build    # Production build test
-npm run start    # Production server test
-```
-
-### Diğer Platformlar
-Next.js 14+ App Router'ı destekleyen herhangi bir platformda çalışır:
-- Netlify
-- AWS Amplify
-- Digital Ocean App Platform
-- Railway
-
-## 🔧 Konfigürasyon
-
-### Environment Variables
-`.env.local` dosyası oluşturun:
-```env
-# Google Analytics
-NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
-
-# Site URL
-NEXT_PUBLIC_SITE_URL=https://wavearc.co
-
-# Resend API (Email gönderimi için)
-RESEND_API_KEY=re_xxxxxxxxxx
-CONTACT_EMAIL=mete@wavearc.co
-```
-
 ## 📊 Performans & SEO
 
 ### Performans
