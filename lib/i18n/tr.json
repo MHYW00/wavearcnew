@@ -123,7 +123,13 @@
   },
   "footer": {
     "rights": "Tüm hakları saklıdır.",
-    "social": "Sosyal Medya"
+    "social": "Sosyal Medya",
+    "legal": "Yasal",
+    "kvkk": "KVKK",
+    "privacy": "Gizlilik Bildirisi",
+    "terms": "Kullanım Şartları",
+    "cookies": "Çerez Politikası",
+    "cookieSettings": "Çerez Ayarları"
   },
   "command": {
     "placeholder": "Komut veya sayfa ara...",
@@ -250,6 +256,402 @@
       "title": "Hâlâ Yardıma İhtiyacınız Var mı?",
       "subtitle": "Sorularınızın yanıtını bulamadıysanız, bizimle doğrudan iletişime geçmekten çekinmeyin.",
       "button": "İletişime Geç"
+    }
+  },
+  "cookieConsent": {
+    "title": "Çerez Kullanımı",
+    "description": "Web sitemizde deneyiminizi iyileştirmek için çerezler kullanıyoruz. Zorunlu çerezler site işlevselliği için gereklidir. Analitik çerezler ise site performansını ölçmemize yardımcı olur.",
+    "acceptAll": "Tümünü Kabul Et",
+    "rejectAll": "Sadece Gerekli",
+    "customize": "Özelleştir"
+  },
+  "cookieSettings": {
+    "title": "Çerez Tercihleri",
+    "description": "Hangi çerezlerin kullanılacağını seçebilirsiniz. Zorunlu çerezler site işlevselliği için her zaman aktiftir.",
+    "essential": {
+      "title": "Zorunlu Çerezler",
+      "description": "Bu çerezler web sitesinin düzgün çalışması için gereklidir.",
+      "always": "Bu çerezler her zaman aktiftir"
+    },
+    "analytics": {
+      "title": "Analitik Çerezler",
+      "description": "Site kullanımını analiz etmemize yardımcı olur.",
+      "details": "Google Analytics (_ga, _gid, _gat) - Site trafiği ve kullanıcı davranışlarını anonim olarak analiz eder."
+    },
+    "acceptAll": "Tümünü Kabul Et",
+    "rejectAll": "Tümünü Reddet",
+    "savePreferences": "Tercihleri Kaydet"
+  },
+  "kvkk": {
+    "meta": {
+      "title": "KVKK Aydınlatma Metni - WaveArc",
+      "description": "6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında aydınlatma metni."
+    },
+    "title": "KVKK Aydınlatma Metni",
+    "lastUpdated": "Son Güncellenme",
+    "intro": {
+      "text": "6698 sayılı Kişisel Verilerin Korunması Kanunu ('KVKK') uyarınca, kişisel verilerinizin işlenmesine ilişkin olarak siz değerli ziyaretçilerimizi bilgilendirmek isteriz."
+    },
+    "controller": {
+      "title": "1. Veri Sorumlusu",
+      "text": "Kişisel verileriniz, veri sorumlusu sıfatıyla WaveArc tarafından aşağıda açıklanan kapsamda işlenebilecektir:",
+      "company": "Şirket",
+      "email": "E-posta",
+      "website": "Web Sitesi"
+    },
+    "data": {
+      "title": "2. Toplanan Kişisel Veriler",
+      "text": "Web sitemiz üzerinden aşağıdaki kişisel verileriniz toplanmaktadır:",
+      "contact": {
+        "title": "İletişim Formu Üzerinden",
+        "name": "Ad ve Soyad",
+        "email": "E-posta adresi",
+        "phone": "Telefon numarası (opsiyonel)",
+        "subject": "Konu başlığı (opsiyonel)",
+        "message": "Mesaj içeriği"
+      },
+      "technical": {
+        "title": "Otomatik Toplanan Teknik Veriler",
+        "ip": "IP adresi",
+        "browser": "Tarayıcı türü ve sürümü",
+        "device": "Cihaz bilgisi",
+        "pages": "Ziyaret edilen sayfalar",
+        "duration": "Sayfa kalış süreleri",
+        "referrer": "Yönlendiren site bilgisi"
+      }
+    },
+    "purpose": {
+      "title": "3. Kişisel Verilerin İşlenme Amaçları",
+      "text": "Toplanan kişisel verileriniz aşağıdaki amaçlarla işlenmektedir:",
+      "communication": "İletişim taleplerinize yanıt vermek ve sizinle iletişim kurmak",
+      "service": "Hizmetlerimizi sunmak ve iyileştirmek",
+      "analytics": "Web sitesi kullanımını analiz etmek ve kullanıcı deneyimini geliştirmek",
+      "security": "Güvenlik ve dolandırıcılık önleme",
+      "legal": "Yasal yükümlülükleri yerine getirmek"
+    },
+    "legal": {
+      "title": "4. Kişisel Verilerin İşlenme Hukuki Sebepleri",
+      "text": "Kişisel verileriniz KVKK'nın 5. ve 6. maddelerinde belirtilen aşağıdaki hukuki sebeplere dayanılarak işlenmektedir:",
+      "consent": {
+        "title": "Açık Rıza",
+        "text": "İletişim formu aracılığıyla verdiğiniz açık rıza"
+      },
+      "contract": {
+        "title": "Sözleşmenin İfası",
+        "text": "Hizmet sunabilmek için gerekli olan işlemler"
+      },
+      "legitimate": {
+        "title": "Meşru Menfaat",
+        "text": "Web sitesi güvenliği ve analitik için meşru menfaatimiz"
+      },
+      "obligation": {
+        "title": "Yasal Yükümlülük",
+        "text": "Mevzuattan kaynaklanan yükümlülüklerimiz"
+      }
+    },
+    "transfer": {
+      "title": "5. Kişisel Verilerin Aktarılması",
+      "text": "Kişisel verileriniz aşağıdaki üçüncü taraf hizmet sağlayıcılarla paylaşılmaktadır:",
+      "resend": "E-posta gönderimi için kullanılmaktadır. GDPR uyumlu veri işleme sözleşmesi bulunmaktadır.",
+      "google": "Web sitesi trafiğini analiz etmek için kullanılmaktadır. Sadece anonim ve toplu veriler işlenir.",
+      "vercel": "Web sitesi barındırma hizmeti sağlamaktadır. Güvenli altyapı ve GDPR uyumluluğu mevcuttur.",
+      "protection": "Yurtdışına veri aktarımında KVKK'nın 9. maddesinde öngörülen tedbirler alınmakta ve yeterli korumaya sahip ülkelere veya veri koruma sözleşmesi olan firmalarla çalışılmaktadır."
+    },
+    "retention": {
+      "title": "6. Kişisel Verilerin Saklama Süresi",
+      "text": "Kişisel verileriniz, işleme amacının ortadan kalkması veya yasal saklama sürelerinin dolması durumunda silinmekte, yok edilmekte veya anonim hale getirilmektedir:",
+      "contact": "İletişim formu verileri: 2 yıl",
+      "analytics": "Analitik verileri: 14 ay (Google Analytics varsayılan süresi)",
+      "logs": "Sunucu logları: 6 ay"
+    },
+    "rights": {
+      "title": "7. İlgili Kişi Hakları",
+      "text": "KVKK'nın 11. maddesi uyarınca aşağıdaki haklara sahipsiniz:",
+      "learn": "Kişisel verilerinizin işlenip işlenmediğini öğrenme",
+      "purpose": "İşlenmişse bilgi talep etme ve işlenme amacını öğrenme",
+      "thirdParty": "Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme",
+      "correction": "Kişisel verilerin eksik veya yanlış işlenmiş olması halinde düzeltilmesini isteme",
+      "deletion": "KVKK'nın 7. maddesinde öngörülen şartlar çerçevesinde silinmesini veya yok edilmesini isteme",
+      "notification": "Düzeltme, silme ve yok edilme işlemlerinin paylaşıldığı üçüncü kişilere bildirilmesini isteme",
+      "objection": "Münhasıran otomatik sistemler ile analiz edilmesi nedeniyle aleyhinize bir sonuç doğmasına itiraz etme",
+      "complaint": "Kanuna aykırı veri işleme nedeniyle zarara uğramanız halinde zararın giderilmesini talep etme ve Kişisel Verileri Koruma Kurumu'na şikayette bulunma"
+    },
+    "application": {
+      "title": "8. Başvuru Yöntemi",
+      "text": "Yukarıda belirtilen haklarınızı kullanmak için aşağıdaki yöntemlerle başvurabilirsiniz:",
+      "email": "E-posta yoluyla: mete@wavearc.co adresine kimliğinizi tespit edici belgeler ve talebinizi içeren dilekçenizi göndererek",
+      "identity": "Başvurularınızda kimlik tespiti yapılacak ve güvenlik nedeniyle doğrulama istenebilecektir.",
+      "specific": "Başvurunuzda hangi hakkınızı kullanmak istediğinizi açık bir şekilde belirtmeniz gerekmektedir.",
+      "response": "Talebiniz en geç 30 gün içinde ücretsiz olarak sonuçlandırılacaktır. İşlemin ayrıca bir maliyeti gerektirmesi halinde, Kişisel Verileri Koruma Kurulu tarafından belirlenen tarifedeki ücret alınabilir."
+    },
+    "contact": {
+      "title": "İletişim",
+      "text": "KVKK ile ilgili sorularınız için bizimle iletişime geçebilirsiniz:",
+      "email": "E-posta"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Gizlilik Politikası - WaveArc",
+      "description": "WaveArc gizlilik politikası. Kişisel verilerinizin nasıl toplandığı, kullanıldığı ve korunduğu hakkında bilgi."
+    },
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son Güncellenme",
+    "intro": {
+      "text": "WaveArc olarak gizliliğinize saygı duyuyoruz. Bu Gizlilik Politikası, kişisel bilgilerinizi nasıl topladığımızı, kullandığımızı, sakladığımızı ve koruduğumuzu açıklamaktadır."
+    },
+    "collect": {
+      "title": "Topladığımız Bilgiler",
+      "provided": {
+        "title": "Sizin Tarafınızdan Sağlanan Bilgiler",
+        "text": "Web sitemizi kullanırken bize aşağıdaki bilgileri sağlayabilirsiniz:",
+        "name": "Ad ve soyad",
+        "email": "E-posta adresi",
+        "phone": "Telefon numarası",
+        "message": "İletişim formu mesajı"
+      },
+      "auto": {
+        "title": "Otomatik Olarak Toplanan Bilgiler",
+        "text": "Web sitemizi ziyaret ettiğinizde bazı bilgiler otomatik olarak toplanır:",
+        "ip": "IP adresi",
+        "browser": "Tarayıcı türü ve sürümü",
+        "device": "Cihaz bilgileri",
+        "pages": "Ziyaret edilen sayfalar",
+        "cookies": "Çerez verileri"
+      }
+    },
+    "use": {
+      "title": "Bilgileri Nasıl Kullanıyoruz",
+      "text": "Topladığımız bilgileri aşağıdaki amaçlarla kullanıyoruz:",
+      "respond": "İletişim taleplerinize yanıt vermek",
+      "improve": "Hizmetlerimizi geliştirmek ve kişiselleştirmek",
+      "analytics": "Web sitesi kullanımını analiz etmek",
+      "security": "Güvenlik ve dolandırıcılığı önlemek",
+      "legal": "Yasal yükümlülüklerimizi yerine getirmek"
+    },
+    "thirdParty": {
+      "title": "Üçüncü Taraf Hizmetler",
+      "text": "Hizmetlerimizi sunmak için aşağıdaki üçüncü taraf servislerini kullanıyoruz:",
+      "google": "Web sitesi trafiğini ve kullanıcı davranışlarını analiz etmek için kullanılır.",
+      "resend": "İletişim formu e-postalarını göndermek için kullanılır.",
+      "vercel": "Web sitesi barındırma ve altyapı hizmetleri için kullanılır.",
+      "privacyPolicy": "Gizlilik Politikası"
+    },
+    "security": {
+      "title": "Veri Güvenliği",
+      "text": "Kişisel bilgilerinizi korumak için çeşitli güvenlik önlemleri alıyoruz:",
+      "ssl": "SSL/TLS şifreleme ile güvenli veri iletimi",
+      "encryption": "Hassas verilerin şifrelenmesi",
+      "access": "Sınırlı erişim kontrolleri",
+      "monitoring": "Güvenlik izleme ve log tutma",
+      "disclaimer": "Ancak, internet üzerinden veri iletiminin %100 güvenli olduğunu garanti edemeyiz. Bilgilerinizi bizimle paylaşırken bu riski kabul etmiş olursunuz."
+    },
+    "retention": {
+      "title": "Veri Saklama Süresi",
+      "text": "Kişisel verilerinizi aşağıdaki süreler boyunca saklarız:",
+      "contact": "İletişim formu verileri: 2 yıl",
+      "analytics": "Analitik verileri: 14 ay",
+      "deletion": "Yasal yükümlülükler gerektirmedikçe, artık ihtiyaç duyulmayan veriler silinir veya anonim hale getirilir."
+    },
+    "children": {
+      "title": "Çocukların Gizliliği",
+      "text": "Web sitemiz 13 yaşın altındaki çocuklara yönelik değildir. Bilerek 13 yaşın altındaki çocuklardan kişisel bilgi toplamıyoruz. Eğer 13 yaşın altındaki bir çocuğun bize bilgi sağladığını öğrenirsek, bu bilgileri derhal sileriz."
+    },
+    "international": {
+      "title": "Uluslararası Veri Transferi",
+      "text": "Verileriniz, Türkiye dışındaki sunucularda işlenebilir ve saklanabilir. Bu ülkelerin veri koruma yasaları Türkiye'dekilerden farklı olabilir. Verilerinizi transfer ederken, uygun koruma önlemlerinin alındığından emin oluruz."
+    },
+    "rights": {
+      "title": "Haklarınız",
+      "text": "Kişisel verilerinizle ilgili aşağıdaki haklara sahipsiniz:",
+      "access": "Verilerinize erişim ve kopyasını talep etme",
+      "correction": "Hatalı verilerin düzeltilmesini isteme",
+      "deletion": "Verilerin silinmesini talep etme",
+      "objection": "Veri işlemeye itiraz etme",
+      "portability": "Veri taşınabilirliği hakkı"
+    },
+    "changes": {
+      "title": "Gizlilik Politikası Değişiklikleri",
+      "text": "Bu Gizlilik Politikası'nı zaman zaman güncelleyebiliriz. Değişiklikler bu sayfada yayınlanacak ve 'Son Güncellenme' tarihi güncellenecektir. Önemli değişiklikler olduğunda size bildirimde bulunabiliriz."
+    },
+    "contact": {
+      "title": "İletişim",
+      "text": "Gizlilik Politikamız hakkında sorularınız varsa bizimle iletişime geçebilirsiniz:",
+      "email": "E-posta"
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Kullanım Şartları - WaveArc",
+      "description": "WaveArc web sitesi kullanım şartları ve koşulları."
+    },
+    "title": "Kullanım Şartları",
+    "lastUpdated": "Son Güncellenme",
+    "intro": {
+      "text": "Bu web sitesini kullanarak, aşağıdaki kullanım şartlarını kabul etmiş sayılırsınız. Şartları kabul etmiyorsanız, lütfen siteyi kullanmayınız."
+    },
+    "acceptance": {
+      "title": "1. Şartların Kabulü",
+      "text": "Bu web sitesine erişerek ve kullanarak, bu Kullanım Şartlarını ve tüm geçerli yasaları kabul etmiş olursunuz. Bu şartlardan herhangi birine katılmıyorsanız, bu siteyi kullanmanız yasaktır."
+    },
+    "use": {
+      "title": "2. Web Sitesinin Kullanımı",
+      "text": "Bu web sitesini yalnızca yasal amaçlar için kullanmayı kabul edersiniz.",
+      "permitted": {
+        "title": "İzin Verilen Kullanımlar",
+        "info": "Şirketimiz ve hizmetlerimiz hakkında bilgi edinmek",
+        "services": "Sunduğumuz hizmetlerle ilgili bilgi almak",
+        "contact": "İletişim formunu kullanarak bizimle iletişime geçmek"
+      },
+      "prohibited": {
+        "title": "Yasaklanan Kullanımlar",
+        "illegal": "Yasadışı veya yetkisiz amaçlarla kullanmak",
+        "harm": "Web sitesine veya altyapısına zarar vermek",
+        "spam": "Spam veya istenmeyen içerik göndermek",
+        "reverse": "Ters mühendislik veya kod çözümleme yapmak",
+        "scrape": "Otomatik sistemlerle veri çekmek (scraping)",
+        "interfere": "Web sitesinin çalışmasını engellemek veya kesintiye uğratmak"
+      }
+    },
+    "ip": {
+      "title": "3. Fikri Mülkiyet Hakları",
+      "text": "Bu web sitesindeki tüm içerik (metin, grafik, logo, görseller, kod) WaveArc'ın mülkiyetindedir ve fikri mülkiyet yasaları ile korunmaktadır.",
+      "ownership": "Aşağıdakiler dahil olmak üzere tüm içerik telif hakkına tabidir:",
+      "logo": "WaveArc logosu ve markası",
+      "design": "Web sitesi tasarımı ve kullanıcı arayüzü",
+      "content": "Tüm yazılı içerik ve görseller",
+      "code": "Kaynak kodu ve yazılım",
+      "permission": "Önceden yazılı izin almadan bu içerikleri kopyalayamaz, çoğaltamaz, dağıtamaz veya türev çalışmalar oluşturamazsınız."
+    },
+    "userContent": {
+      "title": "4. Kullanıcı İçeriği",
+      "text": "İletişim formu aracılığıyla gönderdiğiniz bilgiler (mesajlar, sorular) için siz sorumlusunuz.",
+      "responsibility": "Gönderdiğiniz içeriğin yasalara uygun, doğru ve yanıltıcı olmadığını garanti edersiniz. Hakaret, tehdit veya uygunsuz içerik göndermemeyi kabul edersiniz."
+    },
+    "links": {
+      "title": "5. Üçüncü Taraf Bağlantıları",
+      "text": "Web sitemiz üçüncü taraf web sitelerine bağlantılar içerebilir. Bu sitelerin içeriğinden veya gizlilik uygulamalarından sorumlu değiliz. Bu bağlantıları kullanırken dikkatli olmanızı öneririz."
+    },
+    "disclaimer": {
+      "title": "6. Sorumluluk Reddi",
+      "text": "Bu web sitesi 'olduğu gibi' sağlanmaktadır. Hizmetlerin kesintisiz, güvenli veya hatasız olacağına dair hiçbir garanti vermiyoruz.",
+      "asis": "Aşağıdakiler dahil olmak üzere hiçbir garanti vermiyoruz:",
+      "accuracy": "İçeriğin doğruluğu veya güncelliği",
+      "availability": "Hizmetin sürekli erişilebilir olması",
+      "errors": "Hataların düzeltileceği",
+      "results": "Belirli sonuçların elde edileceği"
+    },
+    "liability": {
+      "title": "7. Sorumluluk Sınırlaması",
+      "text": "Yasaların izin verdiği ölçüde, WaveArc aşağıdakilerden sorumlu tutulamaz:",
+      "indirect": "Dolaylı, arızi veya sonuç olarak ortaya çıkan zararlar",
+      "loss": "Kar, gelir veya veri kaybı",
+      "errors": "Web sitesindeki hatalar veya eksiklikler",
+      "thirdParty": "Üçüncü taraf hizmetlerinden kaynaklanan sorunlar"
+    },
+    "indemnification": {
+      "title": "8. Tazminat",
+      "text": "Bu Kullanım Şartlarını ihlal etmeniz durumunda, WaveArc'ı ve çalışanlarını ortaya çıkabilecek her türlü talep, zarar ve masraftan korumayı ve tazmin etmeyi kabul edersiniz."
+    },
+    "changes": {
+      "title": "9. Şartlarda Değişiklikler",
+      "text": "Bu Kullanım Şartlarını istediğimiz zaman değiştirme hakkını saklı tutarız. Değişiklikler bu sayfada yayınlanacaktır. Değişikliklerden sonra siteyi kullanmaya devam etmeniz, yeni şartları kabul ettiğiniz anlamına gelir."
+    },
+    "law": {
+      "title": "10. Geçerli Hukuk",
+      "text": "Bu Kullanım Şartları Türkiye Cumhuriyeti yasalarına tabidir. Bu şartlardan kaynaklanan uyuşmazlıklar Türkiye mahkemelerinin münhasır yetkisindedir."
+    },
+    "contact": {
+      "title": "İletişim",
+      "text": "Kullanım Şartları hakkında sorularınız varsa bizimle iletişime geçebilirsiniz:",
+      "email": "E-posta"
+    }
+  },
+  "cookies": {
+    "meta": {
+      "title": "Çerez Politikası - WaveArc",
+      "description": "WaveArc çerez politikası. Web sitemizde kullanılan çerezler hakkında bilgi."
+    },
+    "title": "Çerez Politikası",
+    "lastUpdated": "Son Güncellenme",
+    "intro": {
+      "text": "Bu Çerez Politikası, WaveArc web sitesinde çerezlerin nasıl kullanıldığını açıklamaktadır."
+    },
+    "what": {
+      "title": "Çerez Nedir?",
+      "text": "Çerezler, web sitesini ziyaret ettiğinizde cihazınıza (bilgisayar, tablet, telefon) kaydedilen küçük metin dosyalarıdır.",
+      "purpose": "Çerezler, web sitesinin düzgün çalışmasını sağlamak, kullanıcı deneyimini iyileştirmek ve site kullanımını analiz etmek için kullanılır."
+    },
+    "types": {
+      "title": "Kullandığımız Çerez Türleri",
+      "text": "Web sitemizde iki tür çerez kullanıyoruz:",
+      "essential": {
+        "title": "1. Zorunlu Çerezler",
+        "text": "Bu çerezler web sitesinin temel işlevleri için gereklidir ve devre dışı bırakılamazlar:",
+        "session": {
+          "name": "Oturum Çerezleri",
+          "purpose": "Web sitesi gezinmenizi ve temel işlevleri sağlar"
+        },
+        "locale": {
+          "name": "Dil Tercihi (NEXT_LOCALE)",
+          "purpose": "Seçtiğiniz dil tercihini (TR/EN) hatırlar"
+        },
+        "theme": {
+          "name": "Tema Tercihi (theme)",
+          "purpose": "Koyu/aydınlık mod tercihini saklar"
+        },
+        "consent": {
+          "name": "Çerez Onayı (cookie-consent)",
+          "purpose": "Çerez tercihlerinizi saklar"
+        },
+        "required": "Bu çerezler web sitesinin çalışması için zorunludur"
+      },
+      "analytics": {
+        "title": "2. Analitik Çerezler (İsteğe Bağlı)",
+        "text": "Bu çerezler, web sitesi kullanımını anlamamıza ve iyileştirmemize yardımcı olur. Sadece onay verirseniz kullanılırlar:",
+        "ga": {
+          "purpose": "Ana Google Analytics çerezi, kullanıcıları tanımlar",
+          "duration": "2 yıl"
+        },
+        "gid": {
+          "purpose": "Kullanıcıları tanımlar",
+          "duration": "24 saat"
+        },
+        "gat": {
+          "purpose": "İstek oranını sınırlar",
+          "duration": "1 dakika"
+        },
+        "optional": "Bu çerezleri çerez ayarlarından yönetebilirsiniz"
+      }
+    },
+    "thirdParty": {
+      "title": "Üçüncü Taraf Çerezleri",
+      "text": "Web sitemizde kullanılan üçüncü taraf çerezleri:",
+      "google": "Google Analytics, web sitesi trafiğini ve kullanıcı davranışlarını analiz etmek için kullanılır. Toplanan veriler anonim ve topludur.",
+      "learn": "Daha Fazla Bilgi"
+    },
+    "manage": {
+      "title": "Çerezleri Nasıl Yönetebilirsiniz?",
+      "text": "Çerez tercihlerinizi iki şekilde yönetebilirsiniz:",
+      "ourSettings": {
+        "title": "Çerez Ayarları (Önerilen)",
+        "text": "Sayfanın altındaki 'Çerez Ayarları' butonuna tıklayarak analitik çerezleri açıp kapatabilirsiniz. Zorunlu çerezler her zaman aktiftir."
+      },
+      "browser": {
+        "title": "Tarayıcı Ayarları",
+        "text": "Çerezleri tarayıcı ayarlarından da yönetebilirsiniz. Popüler tarayıcılar için talimatlar:",
+        "instructions": "Talimatlar"
+      },
+      "warning": "Not: Zorunlu çerezleri devre dışı bırakırsanız, web sitesinin bazı özellikleri düzgün çalışmayabilir."
+    },
+    "updates": {
+      "title": "Politika Güncellemeleri",
+      "text": "Bu Çerez Politikası'nı zaman zaman güncelleyebiliriz. Değişiklikler bu sayfada yayınlanacak ve 'Son Güncellenme' tarihi güncellenecektir."
+    },
+    "contact": {
+      "title": "İletişim",
+      "text": "Çerez Politikamız hakkında sorularınız varsa bizimle iletişime geçebilirsiniz:",
+      "email": "E-posta"
     }
   }
 }

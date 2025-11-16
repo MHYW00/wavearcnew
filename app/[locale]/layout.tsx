@@ -8,6 +8,7 @@ import { CommandPalette } from '@/components/command-palette';
 import { Analytics } from '@/components/analytics';
 import { ScrollProgress } from '@/components/scroll-progress';
 import { StickyCTA } from '@/components/sticky-cta';
+import { CookieConsent } from '@/components/cookie-consent';
 import { Toaster } from 'sonner';
 import '../globals.css';
 
@@ -52,6 +53,7 @@ export default async function LocaleLayout({
             <ScrollProgress />
             <CommandPalette />
             <StickyCTA />
+            <CookieConsent />
             <Toaster position="top-right" richColors />
             <div className="flex min-h-screen flex-col">
               <Header />

@@ -1,14 +1,17 @@
 "use client"
 
+import { useState } from "react"
 import Link from "next/link"
 import { useTranslations, useLocale } from "next-intl"
 import { Mail, Phone, Instagram } from "lucide-react"
 import { motion } from "framer-motion"
+import { CookieSettings } from "@/components/cookie-settings"
 
 export function Footer() {
   const t = useTranslations()
   const locale = useLocale()
   const currentYear = new Date().getFullYear()
+  const [showCookieSettings, setShowCookieSettings] = useState(false)
 
   const socialLinks = [
     { icon: Instagram, href: "https://www.instagram.com/wavearc.co/", label: "Instagram" },
@@ -57,7 +60,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Company Info */}
           <motion.div
-            className="space-y-4 md:col-span-2"
+            className="space-y-4"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -122,6 +125,51 @@ export function Footer() {
             </nav>
           </motion.div>
 
+          {/* Legal Links */}
+          <motion.div
+            className="space-y-4"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.15 }}
+            viewport={{ once: true }}
+          >
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-foreground">
+              {t('footer.legal')}
+            </h4>
+            <nav className="flex flex-col space-y-3">
+              <Link
+                href={`/${locale}/kvkk`}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                {t('footer.kvkk')}
+              </Link>
+              <Link
+                href={`/${locale}/gizlilik`}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                {t('footer.privacy')}
+              </Link>
+              <Link
+                href={`/${locale}/kullanim-sartlari`}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                {t('footer.terms')}
+              </Link>
+              <Link
+                href={`/${locale}/cerezler`}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                {t('footer.cookies')}
+              </Link>
+              <button
+                onClick={() => setShowCookieSettings(true)}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors text-left"
+              >
+                {t('footer.cookieSettings')}
+              </button>
+            </nav>
+          </motion.div>
+
           {/* Contact Info */}
           <motion.div
             className="space-y-4"
@@ -169,6 +217,11 @@ export function Footer() {
           </p>
         </motion.div>
       </div>
+
+      <CookieSettings
+        open={showCookieSettings}
+        onOpenChange={setShowCookieSettings}
+      />
     </footer>
   )
 }

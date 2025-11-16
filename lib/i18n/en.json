@@ -123,7 +123,13 @@
   },
   "footer": {
     "rights": "All rights reserved.",
-    "social": "Social Media"
+    "social": "Social Media",
+    "legal": "Legal",
+    "kvkk": "KVKK",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "cookieSettings": "Cookie Settings"
   },
   "command": {
     "placeholder": "Search for command or page...",
@@ -250,6 +256,402 @@
       "title": "Still Need Help?",
       "subtitle": "If you haven't found answers to your questions, don't hesitate to contact us directly.",
       "button": "Get In Touch"
+    }
+  },
+  "cookieConsent": {
+    "title": "Cookie Usage",
+    "description": "We use cookies to improve your experience on our website. Essential cookies are required for site functionality. Analytics cookies help us measure site performance.",
+    "acceptAll": "Accept All",
+    "rejectAll": "Essential Only",
+    "customize": "Customize"
+  },
+  "cookieSettings": {
+    "title": "Cookie Preferences",
+    "description": "You can choose which cookies to allow. Essential cookies are always active for site functionality.",
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "These cookies are necessary for the website to function properly.",
+      "always": "These cookies are always active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "These cookies help us analyze site usage.",
+      "details": "Google Analytics (_ga, _gid, _gat) - Anonymously analyzes site traffic and user behavior."
+    },
+    "acceptAll": "Accept All",
+    "rejectAll": "Reject All",
+    "savePreferences": "Save Preferences"
+  },
+  "kvkk": {
+    "meta": {
+      "title": "KVKK Disclosure Text - WaveArc",
+      "description": "Disclosure text under Law No. 6698 on Protection of Personal Data."
+    },
+    "title": "KVKK Disclosure Text",
+    "lastUpdated": "Last Updated",
+    "intro": {
+      "text": "We would like to inform you, our valued visitors, about the processing of your personal data in accordance with Law No. 6698 on Protection of Personal Data ('KVKK')."
+    },
+    "controller": {
+      "title": "1. Data Controller",
+      "text": "Your personal data may be processed by WaveArc as the data controller within the scope described below:",
+      "company": "Company",
+      "email": "Email",
+      "website": "Website"
+    },
+    "data": {
+      "title": "2. Personal Data Collected",
+      "text": "The following personal data is collected through our website:",
+      "contact": {
+        "title": "Through Contact Form",
+        "name": "Name and Surname",
+        "email": "Email address",
+        "phone": "Phone number (optional)",
+        "subject": "Subject (optional)",
+        "message": "Message content"
+      },
+      "technical": {
+        "title": "Automatically Collected Technical Data",
+        "ip": "IP address",
+        "browser": "Browser type and version",
+        "device": "Device information",
+        "pages": "Pages visited",
+        "duration": "Page duration",
+        "referrer": "Referrer information"
+      }
+    },
+    "purpose": {
+      "title": "3. Purposes of Processing Personal Data",
+      "text": "Your collected personal data is processed for the following purposes:",
+      "communication": "Respond to your contact requests and communicate with you",
+      "service": "Provide and improve our services",
+      "analytics": "Analyze website usage and improve user experience",
+      "security": "Security and fraud prevention",
+      "legal": "Fulfill legal obligations"
+    },
+    "legal": {
+      "title": "4. Legal Basis for Processing Personal Data",
+      "text": "Your personal data is processed based on the following legal grounds specified in Articles 5 and 6 of KVKK:",
+      "consent": {
+        "title": "Explicit Consent",
+        "text": "Your explicit consent provided through the contact form"
+      },
+      "contract": {
+        "title": "Performance of Contract",
+        "text": "Necessary processing to provide services"
+      },
+      "legitimate": {
+        "title": "Legitimate Interest",
+        "text": "Our legitimate interest for website security and analytics"
+      },
+      "obligation": {
+        "title": "Legal Obligation",
+        "text": "Our obligations arising from legislation"
+      }
+    },
+    "transfer": {
+      "title": "5. Transfer of Personal Data",
+      "text": "Your personal data is shared with the following third-party service providers:",
+      "resend": "Used for email delivery. GDPR-compliant data processing agreement in place.",
+      "google": "Used to analyze website traffic. Only anonymous and aggregate data is processed.",
+      "vercel": "Provides website hosting services. Secure infrastructure and GDPR compliance available.",
+      "protection": "For international data transfers, measures stipulated in Article 9 of KVKK are taken, and we work with countries with adequate protection or companies with data protection agreements."
+    },
+    "retention": {
+      "title": "6. Data Retention Period",
+      "text": "Your personal data is deleted, destroyed, or anonymized when the processing purpose ceases or legal retention periods expire:",
+      "contact": "Contact form data: 2 years",
+      "analytics": "Analytics data: 14 months (Google Analytics default)",
+      "logs": "Server logs: 6 months"
+    },
+    "rights": {
+      "title": "7. Rights of Data Subjects",
+      "text": "You have the following rights under Article 11 of KVKK:",
+      "learn": "Learn whether your personal data is being processed",
+      "purpose": "Request information if processed and learn the purpose",
+      "thirdParty": "Know the third parties to whom data is transferred domestically or abroad",
+      "correction": "Request correction if processed incorrectly or incompletely",
+      "deletion": "Request deletion or destruction under the conditions of Article 7 of KVKK",
+      "notification": "Request notification of corrections, deletions to third parties",
+      "objection": "Object to adverse results from automated processing",
+      "complaint": "Request compensation for damages due to unlawful processing and file complaints with the Personal Data Protection Authority"
+    },
+    "application": {
+      "title": "8. Application Method",
+      "text": "You can apply through the following methods to exercise your rights mentioned above:",
+      "email": "By email: Send your petition with identity documents to mete@wavearc.co",
+      "identity": "Identity verification will be performed and authentication may be requested for security reasons.",
+      "specific": "You must clearly state which right you wish to exercise in your application.",
+      "response": "Your request will be finalized free of charge within 30 days at the latest. If the transaction requires additional cost, the fee determined by the Personal Data Protection Board may be charged."
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "You can contact us for questions about KVKK:",
+      "email": "Email"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy Policy - WaveArc",
+      "description": "WaveArc privacy policy. Information about how your personal data is collected, used, and protected."
+    },
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated",
+    "intro": {
+      "text": "At WaveArc, we respect your privacy. This Privacy Policy explains how we collect, use, store, and protect your personal information."
+    },
+    "collect": {
+      "title": "Information We Collect",
+      "provided": {
+        "title": "Information You Provide",
+        "text": "When using our website, you may provide us with the following information:",
+        "name": "Name and surname",
+        "email": "Email address",
+        "phone": "Phone number",
+        "message": "Contact form message"
+      },
+      "auto": {
+        "title": "Automatically Collected Information",
+        "text": "When you visit our website, some information is automatically collected:",
+        "ip": "IP address",
+        "browser": "Browser type and version",
+        "device": "Device information",
+        "pages": "Pages visited",
+        "cookies": "Cookie data"
+      }
+    },
+    "use": {
+      "title": "How We Use Information",
+      "text": "We use the collected information for the following purposes:",
+      "respond": "Respond to your contact requests",
+      "improve": "Improve and personalize our services",
+      "analytics": "Analyze website usage",
+      "security": "Security and fraud prevention",
+      "legal": "Fulfill our legal obligations"
+    },
+    "thirdParty": {
+      "title": "Third-Party Services",
+      "text": "We use the following third-party services to provide our services:",
+      "google": "Used to analyze website traffic and user behavior.",
+      "resend": "Used to send contact form emails.",
+      "vercel": "Used for website hosting and infrastructure services.",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "security": {
+      "title": "Data Security",
+      "text": "We take various security measures to protect your personal information:",
+      "ssl": "Secure data transmission with SSL/TLS encryption",
+      "encryption": "Encryption of sensitive data",
+      "access": "Limited access controls",
+      "monitoring": "Security monitoring and logging",
+      "disclaimer": "However, we cannot guarantee that data transmission over the internet is 100% secure. You accept this risk when sharing your information with us."
+    },
+    "retention": {
+      "title": "Data Retention Period",
+      "text": "We retain your personal data for the following periods:",
+      "contact": "Contact form data: 2 years",
+      "analytics": "Analytics data: 14 months",
+      "deletion": "Unless required by legal obligations, data that is no longer needed is deleted or anonymized."
+    },
+    "children": {
+      "title": "Children's Privacy",
+      "text": "Our website is not intended for children under 13. We do not knowingly collect personal information from children under 13. If we learn that a child under 13 has provided us with information, we will delete that information immediately."
+    },
+    "international": {
+      "title": "International Data Transfer",
+      "text": "Your data may be processed and stored on servers outside Turkey. These countries' data protection laws may differ from those in Turkey. When transferring your data, we ensure appropriate safeguards are in place."
+    },
+    "rights": {
+      "title": "Your Rights",
+      "text": "You have the following rights regarding your personal data:",
+      "access": "Request access to and a copy of your data",
+      "correction": "Request correction of incorrect data",
+      "deletion": "Request deletion of data",
+      "objection": "Object to data processing",
+      "portability": "Data portability right"
+    },
+    "changes": {
+      "title": "Privacy Policy Changes",
+      "text": "We may update this Privacy Policy from time to time. Changes will be posted on this page and the 'Last Updated' date will be updated. We may notify you of significant changes."
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "If you have questions about our Privacy Policy, you can contact us:",
+      "email": "Email"
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Terms of Service - WaveArc",
+      "description": "WaveArc website terms of service and conditions."
+    },
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated",
+    "intro": {
+      "text": "By using this website, you are deemed to have accepted the following terms of use. If you do not accept the terms, please do not use the site."
+    },
+    "acceptance": {
+      "title": "1. Acceptance of Terms",
+      "text": "By accessing and using this website, you accept these Terms of Service and all applicable laws. If you do not agree with any of these terms, you are prohibited from using this site."
+    },
+    "use": {
+      "title": "2. Use of Website",
+      "text": "You agree to use this website only for lawful purposes.",
+      "permitted": {
+        "title": "Permitted Uses",
+        "info": "Learn about our company and services",
+        "services": "Get information about the services we offer",
+        "contact": "Contact us using the contact form"
+      },
+      "prohibited": {
+        "title": "Prohibited Uses",
+        "illegal": "Use for illegal or unauthorized purposes",
+        "harm": "Harm the website or infrastructure",
+        "spam": "Send spam or unwanted content",
+        "reverse": "Reverse engineer or decode",
+        "scrape": "Scrape data with automated systems",
+        "interfere": "Interfere with or disrupt the website's operation"
+      }
+    },
+    "ip": {
+      "title": "3. Intellectual Property Rights",
+      "text": "All content on this website (text, graphics, logos, images, code) is owned by WaveArc and protected by intellectual property laws.",
+      "ownership": "All content is subject to copyright, including:",
+      "logo": "WaveArc logo and brand",
+      "design": "Website design and user interface",
+      "content": "All written content and images",
+      "code": "Source code and software",
+      "permission": "You may not copy, reproduce, distribute, or create derivative works without prior written permission."
+    },
+    "userContent": {
+      "title": "4. User Content",
+      "text": "You are responsible for information sent through the contact form (messages, questions).",
+      "responsibility": "You guarantee that the content you send is lawful, accurate, and not misleading. You agree not to send defamatory, threatening, or inappropriate content."
+    },
+    "links": {
+      "title": "5. Third-Party Links",
+      "text": "Our website may contain links to third-party websites. We are not responsible for the content or privacy practices of these sites. We recommend caution when using these links."
+    },
+    "disclaimer": {
+      "title": "6. Disclaimer",
+      "text": "This website is provided 'as is'. We make no warranties that services will be uninterrupted, secure, or error-free.",
+      "asis": "We make no warranties including:",
+      "accuracy": "Accuracy or currency of content",
+      "availability": "Continuous availability of service",
+      "errors": "That errors will be corrected",
+      "results": "That specific results will be obtained"
+    },
+    "liability": {
+      "title": "7. Limitation of Liability",
+      "text": "To the extent permitted by law, WaveArc shall not be liable for:",
+      "indirect": "Indirect, incidental, or consequential damages",
+      "loss": "Loss of profit, revenue, or data",
+      "errors": "Errors or omissions on the website",
+      "thirdParty": "Issues arising from third-party services"
+    },
+    "indemnification": {
+      "title": "8. Indemnification",
+      "text": "You agree to protect and indemnify WaveArc and its employees from any claims, damages, and expenses that may arise from your violation of these Terms of Service."
+    },
+    "changes": {
+      "title": "9. Changes to Terms",
+      "text": "We reserve the right to change these Terms of Service at any time. Changes will be posted on this page. Your continued use of the site after changes constitutes acceptance of the new terms."
+    },
+    "law": {
+      "title": "10. Governing Law",
+      "text": "These Terms of Service are subject to the laws of the Republic of Turkey. Disputes arising from these terms are under the exclusive jurisdiction of Turkish courts."
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "If you have questions about the Terms of Service, you can contact us:",
+      "email": "Email"
+    }
+  },
+  "cookies": {
+    "meta": {
+      "title": "Cookie Policy - WaveArc",
+      "description": "WaveArc cookie policy. Information about cookies used on our website."
+    },
+    "title": "Cookie Policy",
+    "lastUpdated": "Last Updated",
+    "intro": {
+      "text": "This Cookie Policy explains how cookies are used on the WaveArc website."
+    },
+    "what": {
+      "title": "What Are Cookies?",
+      "text": "Cookies are small text files saved to your device (computer, tablet, phone) when you visit a website.",
+      "purpose": "Cookies are used to ensure proper website functioning, improve user experience, and analyze site usage."
+    },
+    "types": {
+      "title": "Types of Cookies We Use",
+      "text": "We use two types of cookies on our website:",
+      "essential": {
+        "title": "1. Essential Cookies",
+        "text": "These cookies are necessary for the website's core functions and cannot be disabled:",
+        "session": {
+          "name": "Session Cookies",
+          "purpose": "Enables website navigation and basic functions"
+        },
+        "locale": {
+          "name": "Language Preference (NEXT_LOCALE)",
+          "purpose": "Remembers your language preference (TR/EN)"
+        },
+        "theme": {
+          "name": "Theme Preference (theme)",
+          "purpose": "Stores dark/light mode preference"
+        },
+        "consent": {
+          "name": "Cookie Consent (cookie-consent)",
+          "purpose": "Stores your cookie preferences"
+        },
+        "required": "These cookies are required for the website to function"
+      },
+      "analytics": {
+        "title": "2. Analytics Cookies (Optional)",
+        "text": "These cookies help us understand and improve website usage. They are only used if you give consent:",
+        "ga": {
+          "purpose": "Main Google Analytics cookie, identifies users",
+          "duration": "2 years"
+        },
+        "gid": {
+          "purpose": "Identifies users",
+          "duration": "24 hours"
+        },
+        "gat": {
+          "purpose": "Limits request rate",
+          "duration": "1 minute"
+        },
+        "optional": "You can manage these cookies in cookie settings"
+      }
+    },
+    "thirdParty": {
+      "title": "Third-Party Cookies",
+      "text": "Third-party cookies used on our website:",
+      "google": "Google Analytics is used to analyze website traffic and user behavior. Collected data is anonymous and aggregate.",
+      "learn": "Learn More"
+    },
+    "manage": {
+      "title": "How Can You Manage Cookies?",
+      "text": "You can manage your cookie preferences in two ways:",
+      "ourSettings": {
+        "title": "Cookie Settings (Recommended)",
+        "text": "Click the 'Cookie Settings' button at the bottom of the page to toggle analytics cookies. Essential cookies are always active."
+      },
+      "browser": {
+        "title": "Browser Settings",
+        "text": "You can also manage cookies through your browser settings. Instructions for popular browsers:",
+        "instructions": "Instructions"
+      },
+      "warning": "Note: If you disable essential cookies, some features of the website may not work properly."
+    },
+    "updates": {
+      "title": "Policy Updates",
+      "text": "We may update this Cookie Policy from time to time. Changes will be posted on this page and the 'Last Updated' date will be updated."
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "If you have questions about our Cookie Policy, you can contact us:",
+      "email": "Email"
     }
   }
 }
