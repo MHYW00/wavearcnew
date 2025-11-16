@@ -7,7 +7,7 @@ import { Footer } from '@/components/layout/footer';
 import { CommandPalette } from '@/components/command-palette';
 import { Analytics } from '@/components/analytics';
 import { ScrollProgress } from '@/components/scroll-progress';
-import { StickyCTA } from '@/components/sticky-cta';
+import { WhatsAppButton } from '@/components/whatsapp-button';
 import { CookieConsent } from '@/components/cookie-consent';
 import { Toaster } from 'sonner';
 import '../globals.css';
@@ -47,12 +47,12 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider
             attribute="class"
-            defaultTheme="system"
-            enableSystem
+            defaultTheme="dark"
+            forcedTheme="dark"
           >
             <ScrollProgress />
             <CommandPalette />
-            <StickyCTA />
+            <WhatsAppButton />
             <CookieConsent />
             <Toaster position="top-right" richColors />
             <div className="flex min-h-screen flex-col">

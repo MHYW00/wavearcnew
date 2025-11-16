@@ -5,7 +5,6 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useTranslations, useLocale } from "next-intl"
 import { Button } from "@/components/ui/button"
-import { ThemeSwitcher } from "@/components/theme-switcher"
 import { Menu, X } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { motion, AnimatePresence } from "framer-motion"
@@ -105,7 +104,6 @@ export function Header() {
           >
             {locale === 'tr' ? 'EN' : 'TR'}
           </Button>
-          {/* <ThemeSwitcher /> */}
         </div>
 
         {/* Mobile Menu Button */}
@@ -156,7 +154,6 @@ export function Header() {
                 >
                   {locale === 'tr' ? 'EN' : 'TR'}
                 </Button>
-                {/* <ThemeSwitcher /> */}
               </div>
             </nav>
           </motion.div>

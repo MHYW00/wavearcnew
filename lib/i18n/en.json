@@ -225,6 +225,9 @@
   "stickyButton": {
     "startProject": "Start Project"
   },
+  "whatsappButton": {
+    "tooltip": "Contact us via WhatsApp"
+  },
   "notFound": {
     "title": "404 - Page Not Found",
     "description": "The page you're looking for doesn't exist or may have been moved.",

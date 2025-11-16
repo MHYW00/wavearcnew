@@ -225,6 +225,9 @@
   "stickyButton": {
     "startProject": "Projeye Başla"
   },
+  "whatsappButton": {
+    "tooltip": "WhatsApp ile iletişime geç"
+  },
   "notFound": {
     "title": "404 - Sayfa Bulunamadı",
     "description": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
