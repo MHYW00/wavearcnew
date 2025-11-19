@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Code2 } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 import { motion } from "framer-motion"
 
 export function Hero({ locale }: { locale: string }) {
@@ -45,9 +46,12 @@ export function Hero({ locale }: { locale: string }) {
             className="relative"
           >
             <div className="absolute inset-0 blur-2xl opacity-30 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-pulse" />
-            <img
-              src="/clients/wavearc-beyaz-logo.png"
+            <Image
+              src="/clients/wavearc-beyaz-logo.webp"
               alt="WaveArc"
+              width={176}
+              height={176}
+              priority
               className="relative h-28 sm:h-36 md:h-44 w-auto drop-shadow-2xl"
             />
           </motion.div>

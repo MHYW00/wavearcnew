@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { useTranslations, useLocale } from "next-intl"
 import { Mail, Phone, Instagram } from "lucide-react"
 import { motion } from "framer-motion"
@@ -67,9 +68,11 @@ export function Footer() {
             viewport={{ once: true }}
           >
             <div className="flex items-center gap-3">
-              <img
-                src="/clients/wavearc-beyaz-logo.png"
+              <Image
+                src="/clients/wavearc-beyaz-logo.webp"
                 alt="WaveArc Logo"
+                width={40}
+                height={40}
                 className="h-10 w-auto dark:brightness-100 brightness-0"
               />
               <h3 className="text-2xl font-bold tracking-tighter text-foreground">
@@ -86,6 +89,7 @@ export function Footer() {
                 <motion.a
                   key={social.label}
                   href={social.href}
+                  aria-label={social.label}
                   className="p-3 rounded-xl bg-slate-100 dark:bg-slate-800 text-foreground hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}

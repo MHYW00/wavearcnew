@@ -39,7 +39,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           {/* Background Image */}
           <div className="absolute inset-0">
             <img
-              src="/clients/senoz2.png"
+              src="/clients/senoz2.webp"
               alt="Senoz Ekovadi"
               className="w-full h-full object-cover"
             />

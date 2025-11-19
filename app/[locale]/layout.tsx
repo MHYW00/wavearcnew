@@ -34,6 +34,8 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} suppressHydrationWarning className={`dark ${inter.variable} ${jetbrainsMono.variable}`}>
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="canonical" href={`https://wavearc.co/${locale}`} />
         <link rel="alternate" hrefLang="tr" href="https://wavearc.co/tr" />
         <link rel="alternate" hrefLang="en" href="https://wavearc.co/en" />
