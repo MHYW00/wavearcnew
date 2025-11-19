@@ -12,9 +12,13 @@ interface ProjectPageProps {
 }
 
 export async function generateStaticParams() {
-  return projects.map((project) => ({
-    slug: project.slug,
-  }))
+  const locales = ['tr', 'en']
+  return locales.flatMap((locale) =>
+    projects.map((project) => ({
+      locale,
+      slug: project.slug,
+    }))
+  )
 }
 
 export default async function ProjectPage({ params }: ProjectPageProps) {
