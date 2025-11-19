@@ -88,10 +88,32 @@
     "title": "About Us",
     "subtitle": "Who We Are?",
     "description": "As WaveArc, we have been providing innovative solutions in the software world since 2025. With our 'Think Different, Build Better' philosophy, we aim for excellence in every project.",
+    "story": "Our Story",
+    "storyText": "Starting our journey with a passionate team in 2022, we now work with over 20 happy clients. We've progressed with the same dedication in every project, prioritizing code quality and user experience.",
     "mission": "Our Mission",
-    "missionText": "To lead businesses in digital transformation using modern technologies and provide sustainable, scalable software solutions.",
+    "missionText": "To be a trusted partner in our clients' digital transformation journeys by providing the highest quality software solutions. To develop scalable and sustainable systems with a pursuit of excellence in every project, prioritizing user experience.",
     "vision": "Our Vision",
-    "visionText": "To become one of Turkey's leading software companies and create a globally recognized technology brand."
+    "visionText": "To become one of Turkey's most innovative and reliable software development companies. To enable businesses to make a difference in the digital world using the power of technology and leave a mark with exemplary projects in the industry.",
+    "values": "Our Values",
+    "valuesSubtitle": "The principles that make us special and our way of doing business",
+    "techStack": "Our Tech Stack",
+    "techStackSubtitle": "We work with modern and reliable technologies",
+    "precision": {
+      "title": "Precision and Quality",
+      "description": "Pursuit of excellence in every line of code. The attention we pay to details forms the foundation of our projects."
+    },
+    "passion": {
+      "title": "Developing with Passion",
+      "description": "We don't just write code, we create solutions. We work wholeheartedly on every project."
+    },
+    "innovation": {
+      "title": "Innovative Approach",
+      "description": "We build future-ready systems using the latest technologies."
+    },
+    "reliability": {
+      "title": "Reliability",
+      "description": "Your projects are safe with us. Solid infrastructure and continuous support guarantee."
+    }
   },
   "contact": {
     "title": "Contact",

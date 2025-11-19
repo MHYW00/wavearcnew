@@ -32,38 +32,40 @@ export default function AboutPage() {
     }
   }
 
+  const tStats = useTranslations('stats')
+
   const values = [
     {
       icon: Target,
       key: 'precision',
-      title: 'Hassasiyet ve Kalite',
-      description: 'Her kod satırında mükemmellik arayışı. Detaylara gösterdiğimiz özen, projelerimizin temelini oluşturur.'
+      title: t('precision.title'),
+      description: t('precision.description')
     },
     {
       icon: Heart,
       key: 'passion',
-      title: 'Tutku ile Geliştirme',
-      description: 'Sadece kod yazmıyoruz, çözümler üretiyoruz. Her projede içtenlikle çalışıyoruz.'
+      title: t('passion.title'),
+      description: t('passion.description')
     },
     {
       icon: Zap,
       key: 'innovation',
-      title: 'Yenilikçi Yaklaşım',
-      description: 'En güncel teknolojileri kullanarak, geleceğe hazır sistemler inşa ediyoruz.'
+      title: t('innovation.title'),
+      description: t('innovation.description')
     },
     {
       icon: Shield,
       key: 'reliability',
-      title: 'Güvenilirlik',
-      description: 'Projeleriniz bizimle güvende. Sağlam altyapı ve sürekli destek garantisi.'
+      title: t('reliability.title'),
+      description: t('reliability.description')
     }
   ]
 
   const stats = [
-    { icon: Users, value: "20+", label: "Mutlu Müşteri" },
-    { icon: Code, value: "10+", label: "Tamamlanan Proje" },
-    { icon: Lightbulb, value: "3+", label: "Yıl Deneyim" },
-    { icon: TrendingUp, value: "98%", label: "Müşteri Memnuniyeti" }
+    { icon: Users, value: "20+", label: tStats("clients") },
+    { icon: Code, value: "10+", label: tStats("projects") },
+    { icon: Lightbulb, value: "3+", label: tStats("experience") },
+    { icon: TrendingUp, value: "98%", label: tStats("satisfaction") }
   ]
 
   return (
@@ -100,13 +102,13 @@ export default function AboutPage() {
             {/* Left Column */}
             <div className="space-y-6">
               <h2 className="text-3xl sm:text-4xl font-bold tracking-tighter text-foreground">
-                Hikayemiz
+                {t('story')}
               </h2>
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
                 {t('description')}
               </p>
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                2022 yılında tutkulu bir ekiple başladığımız yolculukta, bugün 20'den fazla mutlu müşteriyle birlikte çalışıyoruz. Her projede aynı özveriyle, kod kalitesini ve kullanıcı deneyimini ön planda tutarak ilerledik.
+                {t('storyText')}
               </p>
             </div>
 
@@ -155,12 +157,12 @@ export default function AboutPage() {
                     </div>
                   </div>
                   <CardTitle className="text-2xl sm:text-3xl font-bold">
-                    Misyonumuz
+                    {t('mission')}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-base text-muted-foreground leading-relaxed">
-                    Müşterilerimize en yüksek kalitede yazılım çözümleri sunarak, dijital dönüşüm yolculuklarında güvenilir bir iş ortağı olmak. Her projede mükemmellik arayışıyla, kullanıcı deneyimini ön planda tutarak, ölçeklenebilir ve sürdürülebilir sistemler geliştirmek.
+                    {t('missionText')}
                   </p>
                 </CardContent>
               </Card>
@@ -181,12 +183,12 @@ export default function AboutPage() {
                     </div>
                   </div>
                   <CardTitle className="text-2xl sm:text-3xl font-bold">
-                    Vizyonumuz
+                    {t('vision')}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-base text-muted-foreground leading-relaxed">
-                    Türkiye'nin en yenilikçi ve güvenilir yazılım geliştirme şirketlerinden biri olmak. Teknolojinin gücünü kullanarak, işletmelerin dijital dünyada fark yaratmasını sağlamak ve sektörde örnek teşkil eden projelerle iz bırakmak.
+                    {t('visionText')}
                   </p>
                 </CardContent>
               </Card>
@@ -207,10 +209,10 @@ export default function AboutPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tighter text-foreground">
-              Değerlerimiz
+              {t('values')}
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
-              Bizi özel kılan prensipler ve iş yapış şeklimiz
+              {t('valuesSubtitle')}
             </p>
           </motion.div>
 
@@ -269,10 +271,10 @@ export default function AboutPage() {
             <Card className="glass-card bg-background border-0">
               <CardHeader className="text-center space-y-4 pb-8">
                 <CardTitle className="text-3xl sm:text-4xl font-bold tracking-tighter">
-                  Teknoloji Stack'imiz
+                  {t('techStack')}
                 </CardTitle>
                 <p className="text-base text-muted-foreground max-w-2xl mx-auto">
-                  Modern ve güvenilir teknolojilerle çalışıyoruz
+                  {t('techStackSubtitle')}
                 </p>
               </CardHeader>
               <CardContent>

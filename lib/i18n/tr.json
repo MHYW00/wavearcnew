@@ -88,10 +88,32 @@
     "title": "Hakkımızda",
     "subtitle": "Biz Kimiz?",
     "description": "WaveArc olarak, 2025 yılından bu yana yazılım dünyasında yenilikçi çözümler sunuyoruz. 'Think Different, Build Better' felsefesiyle, her projede mükemmelliği hedefliyoruz.",
+    "story": "Hikayemiz",
+    "storyText": "2022 yılında tutkulu bir ekiple başladığımız yolculukta, bugün 20'den fazla mutlu müşteriyle birlikte çalışıyoruz. Her projede aynı özveriyle, kod kalitesini ve kullanıcı deneyimini ön planda tutarak ilerledik.",
     "mission": "Misyonumuz",
-    "missionText": "Modern teknolojileri kullanarak işletmelerin dijital dönüşümüne öncülük etmek ve sürdürülebilir, ölçeklenebilir yazılım çözümleri sunmak.",
+    "missionText": "Müşterilerimize en yüksek kalitede yazılım çözümleri sunarak, dijital dönüşüm yolculuklarında güvenilir bir iş ortağı olmak. Her projede mükemmellik arayışıyla, kullanıcı deneyimini ön planda tutarak, ölçeklenebilir ve sürdürülebilir sistemler geliştirmek.",
     "vision": "Vizyonumuz",
-    "visionText": "Türkiye'nin önde gelen yazılım şirketlerinden biri olmak ve global pazarda tanınan bir teknoloji markası yaratmak."
+    "visionText": "Türkiye'nin en yenilikçi ve güvenilir yazılım geliştirme şirketlerinden biri olmak. Teknolojinin gücünü kullanarak, işletmelerin dijital dünyada fark yaratmasını sağlamak ve sektörde örnek teşkil eden projelerle iz bırakmak.",
+    "values": "Değerlerimiz",
+    "valuesSubtitle": "Bizi özel kılan prensipler ve iş yapış şeklimiz",
+    "techStack": "Teknoloji Stack'imiz",
+    "techStackSubtitle": "Modern ve güvenilir teknolojilerle çalışıyoruz",
+    "precision": {
+      "title": "Hassasiyet ve Kalite",
+      "description": "Her kod satırında mükemmellik arayışı. Detaylara gösterdiğimiz özen, projelerimizin temelini oluşturur."
+    },
+    "passion": {
+      "title": "Tutku ile Geliştirme",
+      "description": "Sadece kod yazmıyoruz, çözümler üretiyoruz. Her projede içtenlikle çalışıyoruz."
+    },
+    "innovation": {
+      "title": "Yenilikçi Yaklaşım",
+      "description": "En güncel teknolojileri kullanarak, geleceğe hazır sistemler inşa ediyoruz."
+    },
+    "reliability": {
+      "title": "Güvenilirlik",
+      "description": "Projeleriniz bizimle güvende. Sağlam altyapı ve sürekli destek garantisi."
+    }
   },
   "contact": {
     "title": "İletişim",
