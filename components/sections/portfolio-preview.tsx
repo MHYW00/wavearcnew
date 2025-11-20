@@ -75,7 +75,7 @@ export function PortfolioPreview() {
                 <div className="relative w-full h-56 overflow-hidden">
                   {/* Background Image */}
                   <img
-                    src="/clients/senoz2.png"
+                    src="/clients/senoz2.webp"
                     alt={project.title[locale as 'tr' | 'en']}
                     className="absolute inset-0 w-full h-full object-cover"
                   />

@@ -129,7 +129,7 @@ export default function PortfolioPage() {
                         {/* Project Image */}
                         <div className={`relative w-full ${isTall ? 'h-96' : 'h-64'} overflow-hidden`}>
                           <img
-                            src="/clients/senoz2.png"
+                            src="/clients/senoz2.webp"
                             alt={project.title[locale as 'tr' | 'en']}
                             className="absolute inset-0 w-full h-full object-cover"
                           />

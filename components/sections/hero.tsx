@@ -52,6 +52,7 @@ export function Hero({ locale }: { locale: string }) {
               width={176}
               height={176}
               priority
+              fetchPriority="high"
               className="relative h-28 sm:h-36 md:h-44 w-auto drop-shadow-2xl"
             />
           </motion.div>
