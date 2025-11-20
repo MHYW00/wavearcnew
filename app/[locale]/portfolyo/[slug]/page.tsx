@@ -3,12 +3,30 @@ import projects from "@/lib/data/projects.json"
 import { ArrowLeft, Code, Database, Smartphone, Globe, Zap, Shield, Cloud } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { Metadata } from "next"
 
 interface ProjectPageProps {
   params: Promise<{
     locale: string
     slug: string
   }>
+}
+
+export async function generateMetadata({
+  params
+}: ProjectPageProps): Promise<Metadata> {
+  const { locale, slug } = await params
+
+  return {
+    alternates: {
+      canonical: `https://wavearc.co/${locale}/portfolyo/${slug}`,
+      languages: {
+        'tr': `https://wavearc.co/tr/portfolyo/${slug}`,
+        'en': `https://wavearc.co/en/portfolyo/${slug}`,
+        'x-default': `https://wavearc.co/tr/portfolyo/${slug}`
+      }
+    }
+  }
 }
 
 export async function generateStaticParams() {
