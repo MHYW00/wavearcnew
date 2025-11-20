@@ -5,6 +5,26 @@ import { ProcessTimeline } from "@/components/sections/process-timeline"
 import { PortfolioPreview } from "@/components/sections/portfolio-preview"
 import { References } from "@/components/sections/references"
 import { CTA } from "@/components/sections/cta"
+import { Metadata } from "next"
+
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+
+  return {
+    alternates: {
+      canonical: `https://wavearc.co/${locale}`,
+      languages: {
+        'tr': 'https://wavearc.co/tr',
+        'en': 'https://wavearc.co/en',
+        'x-default': 'https://wavearc.co/tr'
+      }
+    }
+  }
+}
 
 export default async function Home({
   params

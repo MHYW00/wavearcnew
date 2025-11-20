@@ -36,10 +36,6 @@ export default async function LocaleLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="canonical" href={`https://wavearc.co/${locale}`} />
-        <link rel="alternate" hrefLang="tr" href="https://wavearc.co/tr" />
-        <link rel="alternate" hrefLang="en" href="https://wavearc.co/en" />
-        <link rel="alternate" hrefLang="x-default" href="https://wavearc.co/tr" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#000000" />
       </head>
