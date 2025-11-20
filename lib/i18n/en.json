@@ -288,7 +288,8 @@
     "description": "We use cookies to improve your experience on our website. Essential cookies are required for site functionality. Analytics cookies help us measure site performance.",
     "acceptAll": "Accept All",
     "rejectAll": "Essential Only",
-    "customize": "Customize"
+    "customize": "Customize",
+    "close": "Close"
   },
   "cookieSettings": {
     "title": "Cookie Preferences",

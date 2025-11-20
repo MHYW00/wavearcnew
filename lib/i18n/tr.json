@@ -288,7 +288,8 @@
     "description": "Web sitemizde deneyiminizi iyileştirmek için çerezler kullanıyoruz. Zorunlu çerezler site işlevselliği için gereklidir. Analitik çerezler ise site performansını ölçmemize yardımcı olur.",
     "acceptAll": "Tümünü Kabul Et",
     "rejectAll": "Sadece Gerekli",
-    "customize": "Özelleştir"
+    "customize": "Özelleştir",
+    "close": "Kapat"
   },
   "cookieSettings": {
     "title": "Çerez Tercihleri",
