@@ -21,6 +21,11 @@ export default function PortfolioPage() {
     { key: 'enterprise', label: t('filters.enterprise') }
   ]
 
+  const getCategoryLabel = (categoryKey: string) => {
+    const category = categories.find(c => c.key === categoryKey)
+    return category ? category.label : categoryKey
+  }
+
   const filteredProjects = activeCategory === 'all'
     ? projects
     : projects.filter(project => project.category === activeCategory)
@@ -137,7 +142,7 @@ export default function PortfolioPage() {
 
                           {/* Category badge floating */}
                           <div className="absolute top-4 right-4 px-4 py-2 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 text-xs font-semibold text-white uppercase tracking-wider">
-                            {project.category}
+                            {getCategoryLabel(project.category)}
                           </div>
 
                           {/* Project title overlay on hover */}
