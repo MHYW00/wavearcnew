@@ -16,11 +16,11 @@ export async function generateMetadata({
 
   return {
     alternates: {
-      canonical: `https://wavearc.co/${locale}`,
+      canonical: `https://www.wavearc.co/${locale}`,
       languages: {
-        'tr': 'https://wavearc.co/tr',
-        'en': 'https://wavearc.co/en',
-        'x-default': 'https://wavearc.co/tr'
+        'tr': 'https://www.wavearc.co/tr',
+        'en': 'https://www.wavearc.co/en',
+        'x-default': 'https://www.wavearc.co/tr'
       }
     }
   }

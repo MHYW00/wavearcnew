@@ -9,11 +9,11 @@ export async function generateMetadata({
 
   return {
     alternates: {
-      canonical: `https://wavearc.co/${locale}/hakkimizda`,
+      canonical: `https://www.wavearc.co/${locale}/hakkimizda`,
       languages: {
-        'tr': 'https://wavearc.co/tr/hakkimizda',
-        'en': 'https://wavearc.co/en/hakkimizda',
-        'x-default': 'https://wavearc.co/tr/hakkimizda'
+        'tr': 'https://www.wavearc.co/tr/hakkimizda',
+        'en': 'https://www.wavearc.co/en/hakkimizda',
+        'x-default': 'https://www.wavearc.co/tr/hakkimizda'
       }
     }
   }

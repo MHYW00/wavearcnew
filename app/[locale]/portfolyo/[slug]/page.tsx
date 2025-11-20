@@ -19,11 +19,11 @@ export async function generateMetadata({
 
   return {
     alternates: {
-      canonical: `https://wavearc.co/${locale}/portfolyo/${slug}`,
+      canonical: `https://www.wavearc.co/${locale}/portfolyo/${slug}`,
       languages: {
-        'tr': `https://wavearc.co/tr/portfolyo/${slug}`,
-        'en': `https://wavearc.co/en/portfolyo/${slug}`,
-        'x-default': `https://wavearc.co/tr/portfolyo/${slug}`
+        'tr': `https://www.wavearc.co/tr/portfolyo/${slug}`,
+        'en': `https://www.wavearc.co/en/portfolyo/${slug}`,
+        'x-default': `https://www.wavearc.co/tr/portfolyo/${slug}`
       }
     }
   }

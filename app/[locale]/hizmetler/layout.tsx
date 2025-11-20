@@ -9,11 +9,11 @@ export async function generateMetadata({
 
   return {
     alternates: {
-      canonical: `https://wavearc.co/${locale}/hizmetler`,
+      canonical: `https://www.wavearc.co/${locale}/hizmetler`,
       languages: {
-        'tr': 'https://wavearc.co/tr/hizmetler',
-        'en': 'https://wavearc.co/en/hizmetler',
-        'x-default': 'https://wavearc.co/tr/hizmetler'
+        'tr': 'https://www.wavearc.co/tr/hizmetler',
+        'en': 'https://www.wavearc.co/en/hizmetler',
+        'x-default': 'https://www.wavearc.co/tr/hizmetler'
       }
     }
   }

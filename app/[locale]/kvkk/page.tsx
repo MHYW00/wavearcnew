@@ -44,7 +44,7 @@ export default function KVKKPage({
           <ul className="list-disc pl-6 space-y-1">
             <li><strong>{t("controller.company")}:</strong> WaveArc</li>
             <li><strong>{t("controller.email")}:</strong> mete@wavearc.co</li>
-            <li><strong>{t("controller.website")}:</strong> https://wavearc.co</li>
+            <li><strong>{t("controller.website")}:</strong> https://www.wavearc.co</li>
           </ul>
         </section>
 

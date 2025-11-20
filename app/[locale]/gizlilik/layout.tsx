@@ -9,11 +9,11 @@ export async function generateMetadata({
 
   return {
     alternates: {
-      canonical: `https://wavearc.co/${locale}/gizlilik`,
+      canonical: `https://www.wavearc.co/${locale}/gizlilik`,
       languages: {
-        'tr': 'https://wavearc.co/tr/gizlilik',
-        'en': 'https://wavearc.co/en/gizlilik',
-        'x-default': 'https://wavearc.co/tr/gizlilik'
+        'tr': 'https://www.wavearc.co/tr/gizlilik',
+        'en': 'https://www.wavearc.co/en/gizlilik',
+        'x-default': 'https://www.wavearc.co/tr/gizlilik'
       }
     }
   }

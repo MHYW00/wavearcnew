@@ -9,11 +9,11 @@ export async function generateMetadata({
 
   return {
     alternates: {
-      canonical: `https://wavearc.co/${locale}/kullanim-sartlari`,
+      canonical: `https://www.wavearc.co/${locale}/kullanim-sartlari`,
       languages: {
-        'tr': 'https://wavearc.co/tr/kullanim-sartlari',
-        'en': 'https://wavearc.co/en/kullanim-sartlari',
-        'x-default': 'https://wavearc.co/tr/kullanim-sartlari'
+        'tr': 'https://www.wavearc.co/tr/kullanim-sartlari',
+        'en': 'https://www.wavearc.co/en/kullanim-sartlari',
+        'x-default': 'https://www.wavearc.co/tr/kullanim-sartlari'
       }
     }
   }

@@ -9,11 +9,11 @@ export async function generateMetadata({
 
   return {
     alternates: {
-      canonical: `https://wavearc.co/${locale}/iletisim`,
+      canonical: `https://www.wavearc.co/${locale}/iletisim`,
       languages: {
-        'tr': 'https://wavearc.co/tr/iletisim',
-        'en': 'https://wavearc.co/en/iletisim',
-        'x-default': 'https://wavearc.co/tr/iletisim'
+        'tr': 'https://www.wavearc.co/tr/iletisim',
+        'en': 'https://www.wavearc.co/en/iletisim',
+        'x-default': 'https://www.wavearc.co/tr/iletisim'
       }
     }
   }

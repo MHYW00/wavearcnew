@@ -9,11 +9,11 @@ export async function generateMetadata({
 
   return {
     alternates: {
-      canonical: `https://wavearc.co/${locale}/kvkk`,
+      canonical: `https://www.wavearc.co/${locale}/kvkk`,
       languages: {
-        'tr': 'https://wavearc.co/tr/kvkk',
-        'en': 'https://wavearc.co/en/kvkk',
-        'x-default': 'https://wavearc.co/tr/kvkk'
+        'tr': 'https://www.wavearc.co/tr/kvkk',
+        'en': 'https://www.wavearc.co/en/kvkk',
+        'x-default': 'https://www.wavearc.co/tr/kvkk'
       }
     }
   }

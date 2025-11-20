@@ -9,11 +9,11 @@ export async function generateMetadata({
 
   return {
     alternates: {
-      canonical: `https://wavearc.co/${locale}/portfolyo`,
+      canonical: `https://www.wavearc.co/${locale}/portfolyo`,
       languages: {
-        'tr': 'https://wavearc.co/tr/portfolyo',
-        'en': 'https://wavearc.co/en/portfolyo',
-        'x-default': 'https://wavearc.co/tr/portfolyo'
+        'tr': 'https://www.wavearc.co/tr/portfolyo',
+        'en': 'https://www.wavearc.co/en/portfolyo',
+        'x-default': 'https://www.wavearc.co/tr/portfolyo'
       }
     }
   }

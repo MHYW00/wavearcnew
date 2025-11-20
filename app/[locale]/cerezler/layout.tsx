@@ -9,11 +9,11 @@ export async function generateMetadata({
 
   return {
     alternates: {
-      canonical: `https://wavearc.co/${locale}/cerezler`,
+      canonical: `https://www.wavearc.co/${locale}/cerezler`,
       languages: {
-        'tr': 'https://wavearc.co/tr/cerezler',
-        'en': 'https://wavearc.co/en/cerezler',
-        'x-default': 'https://wavearc.co/tr/cerezler'
+        'tr': 'https://www.wavearc.co/tr/cerezler',
+        'en': 'https://www.wavearc.co/en/cerezler',
+        'x-default': 'https://www.wavearc.co/tr/cerezler'
       }
     }
   }

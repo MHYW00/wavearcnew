@@ -5,14 +5,14 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://wavearc.co"),
+  metadataBase: new URL("https://www.wavearc.co"),
   title: {
     default: "WaveArc - Think Different, Build Better",
     template: "%s | WaveArc"
   },
   description: "Modern yazılım çözümleri ve teknoloji danışmanlığı. Özelleştirilmiş web, mobil ve kurumsal uygulamalar geliştiriyoruz.",
   keywords: ["yazılım geliştirme", "software development", "web development", "mobile app", "teknoloji danışmanlığı", "React", "Next.js", "Flutter", "kurumsal yazılım"],
-  authors: [{ name: "WaveArc", url: "https://wavearc.co" }],
+  authors: [{ name: "WaveArc", url: "https://www.wavearc.co" }],
   creator: "WaveArc",
   publisher: "WaveArc",
   formatDetection: {
@@ -21,17 +21,17 @@ export const metadata: Metadata = {
     telephone: false,
   },
   alternates: {
-    canonical: "https://wavearc.co",
+    canonical: "https://www.wavearc.co",
     languages: {
-      'tr': "https://wavearc.co/tr",
-      'en': "https://wavearc.co/en",
+      'tr': "https://www.wavearc.co/tr",
+      'en': "https://www.wavearc.co/en",
     }
   },
   openGraph: {
     type: "website",
     locale: "tr_TR",
     alternateLocale: ["en_US"],
-    url: "https://wavearc.co",
+    url: "https://www.wavearc.co",
     siteName: "WaveArc",
     title: "WaveArc - Think Different, Build Better",
     description: "Modern yazılım çözümleri ve teknoloji danışmanlığı. Özelleştirilmiş web, mobil ve kurumsal uygulamalar geliştiriyoruz.",
